@@ -1,0 +1,30 @@
+{
+  "name": "didyouforget",
+  "version": "1.0.0",
+  "description": "Twitter bot that replies to congressional members with their voting records on 9-11 first repsonder bills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayhemphone/DidYouForget.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "congress",
+    "voting",
+    "accountability",
+    "politics"
+  ],
+  "author": "Zac Wellsandt, Nathan Page",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayhemphone/DidYouForget/issues"
+  },
+  "homepage": "https://github.com/mayhemphone/DidYouForget#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
