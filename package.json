@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/mayhemphone/DidYouForget#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
     "twitter": "^1.7.1"
   }
 }
