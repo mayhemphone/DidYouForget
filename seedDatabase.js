@@ -12,14 +12,6 @@ function entries() {
 		db.Reps.create({
 			name: key,
 			twitter: value
-			// seat: 
-			// v_2010_h_1: 
-			// v_2010_h_2:
-			// v_2010_h_3:
-			// v_2015_b_1:
-			// v_2019_h_1:
-			// v_2010_s_1:
-			// v_2019_s_1:
 		})
 		
 		// TODO: write new entry to database
@@ -30,7 +22,7 @@ function entries() {
 }
 
 function update() {
-	for (let i=0; i < votingData.length; i++)){
+	for (let i=0; i < votingData.length - 1; i++)){
 		console.log(votingData[i].name)	
 		console.log(votingData[i].seat)	
 		console.log(votingData[i].v_2010_h_1)	
@@ -40,19 +32,19 @@ function update() {
 		console.log(votingData[i].v_2019_h_1)	
 		console.log(votingData[i].v_2010_s_1)		
 		console.log(votingData[i].v_2019_s_1)
+		
 		// var query = { name: votingData[i].name };
 		// db.Reps.findOneAndUpdate(query, { 
-		// 	seat: ,
-		// 	v_2010_h_1: ,
-		// 	v_2010_h_2: ,
-		// 	v_2010_h_3: ,
-		// 	v_2015_b_1: ,
-		// 	v_2019_h_1: ,
-		// 	v_2010_s_1: ,
-		// 	v_2019_s_1:
-
+		// 	seat: votingData[i].seat,
+		// 	v_2010_h_1: votingData[i].v_2010_h_1,
+		// 	v_2010_h_2: votingData[i].v_2010_h_2,
+		// 	v_2010_h_3: votingData[i].v_2010_h_3,
+		// 	v_2015_b_1: votingData[i].v_2015_b_1,
+		// 	v_2019_h_1: votingData[i].v_2019_h_1,
+		// 	v_2010_s_1: votingData[i].v_2010_s_1,
+		// 	v_2019_s_1: votingData[i].v_2019_s_1
 		// })
-
+		// console.log("Updated record for ", votingData[i].name,".")
 
 	}
 }
