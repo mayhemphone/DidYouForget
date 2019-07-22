@@ -10,7 +10,8 @@ const Twit = require('twit')
 
 // App flow
 
-// - stream tweets? Search on interval?
+// -  Search on interval- every 10 seconds. (allowed every 2 seconds w/ app auth)
+
 
 // - tweet is found matching criteria 
 // - Make sure not a retweet
@@ -38,10 +39,8 @@ console.log('############################\nSTARTING Twitter Bot\n###############
 
 
 
-// get() to search
-
-// Syntax
-// search/tweets, params, gotData
+// SEARCH
+// Syntax: search/tweets, params, gotData
 
 // Documentation: https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
 
@@ -63,7 +62,8 @@ function getMostRecentTweet(){
 		let screen_name = data.statuses[0].user.screen_name
 		let full_text = data.statuses[0].full_text
 	  
-	  replyToTweet()
+	  console.log(name,"\n",screen_name,"\n",full_text,"\n")
+	  // replyToTweet()
 	})
 
 }
@@ -71,32 +71,36 @@ function getMostRecentTweet(){
 
 // post() to tweet
 
-// T.post('statuses/update', { 
-// 		status: '@DidYouForget911 hello world REPLY!',
-// 		in_reply_to_status_id: '1153390932416315392', 
-// 	}, function(err, data, response) {
-// 	  console.log(data)
-// })
+function replyToTweet(id, screen_name, voting_record){
+	//construct reply
+	let reply = screen_name + " " + voting_record
+
+	T.post('statuses/update', { 
+		in_reply_to_status_id: id, 
+		status: screen_name,
+		
+	}, function(err, data, response) {
+	  console.log(data)
+	})
+}
+
 
 // streaming
 
 
 
+// T.post('statuses/update', { 
+		 
+// 		status: "Rep. Barbara Lee, Ca-13, record on 9/11 first responder bills:\n\n✅ 2010 - House Vote 491 - Yea\n✅ 2010 - House Vote 550 - Yea\n❓ 2010 - House Vote 664 - Not voting\n✅ 2015 - HR1786 - Sponsored Bill\n✅ 2019 - House Vote 474 - Yea\n\n#NeverForget\n#DidTheyForget"
 
+		
+// 	}, function(err, data, response) {
+// 	  console.log(data)
+// 	})
 
 
 
 console.log('\n\n\n\n');
-
-
-
-
-
-
-
-
-
-
 
 
 // function called when a tweet is matched
@@ -125,6 +129,18 @@ function votingRecord (twitterHandle){
 
 
 
+
+
+
+setInterval(function(){ getMostRecentTweet(); }, 10000)
+
+
+
+
+
+
+
+
 // check their voting records
 
 
@@ -134,6 +150,8 @@ function votingRecord (twitterHandle){
 // votingRecord("@DougJones");
 
 
+// Format example
+// status: "Rep. Barbara Lee, Ca-13, record on 9/11 first responder bills:\n\n✅ 2010 - House Vote 491 - Yea\n✅ 2010 - House Vote 550 - Yea\n❓ 2010 - House Vote 664 - Not voting\n✅ 2015 - HR1786 - Sponsored Bill\n✅ 2019 - House Vote 474 - Yea\n\n#NeverForget\n#DidTheyForget"
 
 
 // output
@@ -147,3 +165,8 @@ function votingRecord (twitterHandle){
 
 // #NeverForget
 // #DidTheyForget
+
+
+
+
+
