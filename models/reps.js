@@ -5,7 +5,19 @@ let repsSchema = new mongoose.Schema({
 		type: String,
 		required:false
 	},
-	seat: {
+	chamber: {
+		type: String,
+		required:false
+	},
+	party: {
+		type: String,
+		required:false
+	},
+	state: {
+		type: String,
+		required:false
+	},
+	district: {
 		type: String,
 		required:false
 	},
