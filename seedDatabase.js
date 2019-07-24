@@ -67,6 +67,28 @@ function updateSenate() {
 		console.log("done")
 
 	})
+	var rand = { name: "Rand Paul" };
+	db.Reps.updateMany(query,{v_2019_s_1:'N'}, function(error, result) {
+    if (error) {
+    	console.log("ERROR with",votingData[i].name, "!\n",error)
+    };
+	})
+	.then((response)=>{
+		console.log("done")
+
+	})
+	var query = { name: "Mike Lee"  };
+	db.Reps.updateMany(query,{v_2019_s_1:'N'}, function(error, result) {
+    if (error) {
+    	console.log("ERROR with",votingData[i].name, "!\n",error)
+    };
+	})
+	.then((response)=>{
+		console.log("done")
+
+	})
+
+
 
 }
 
