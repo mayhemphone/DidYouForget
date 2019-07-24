@@ -1,3 +1,5 @@
+const db = require('./models')
+
 let testObj = {
   "_id" : "5d3651584021fc2b0e16afc6",
   "name" : "Barbara Lee",
@@ -49,28 +51,40 @@ let votesSeq = {
   }
 }
 
+let chooseEmoji = {
+  'Y': '✅',
+  'N': '❌',
+  'voteless': '❓'
+}
+
 let votesIter = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2015_b_1', 'v_2019_h_1', 'v_2019_s_1']
 
+
 function createTweet(dataObj) {
+  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
+
   let votes = []
   votesIter.forEach((rollCall, i) => {
     if (dataObj[rollCall]) {
-      votes.push(dataObj[rollCall])
+      votes.push(rollCall)
     }
   })
+  let meat = ''
   votes.forEach((vote, i) => {
-    
+    meat = meat + `\n${chooseEmoji[dataObj[vote]]} ${votesSeq[vote].year} ${votesSeq[vote].text} - ${dataObj[vote]}`
   })
-  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
 
-  let meatArr = []
+  let outro = '\n#NeverForget\n#DidTheyForget'
 
-  let outro = `
-#NeverForget
-#DidTheyForget`
-
-  let full = intro + outro
+  let full = intro + meat + outro
   console.log(full)
+  console.log(`${full.length} characters`)
 }
 
-createTweet(testObj)
+db.Reps.findOne({})
+.then(foundPeople => {
+  console.log(foundPeople);
+  // foundPeople.forEach(person => {
+  //
+  // })
+})
