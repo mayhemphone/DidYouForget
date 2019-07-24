@@ -68,7 +68,7 @@ function updateSenate() {
 
 	})
 	var rand = { name: "Rand Paul" };
-	db.Reps.updateMany(query,{v_2019_s_1:'N'}, function(error, result) {
+	db.Reps.updateMany(rand,{v_2019_s_1:'N'}, function(error, result) {
     if (error) {
     	console.log("ERROR with",votingData[i].name, "!\n",error)
     };
@@ -77,8 +77,8 @@ function updateSenate() {
 		console.log("done")
 
 	})
-	var query = { name: "Mike Lee"  };
-	db.Reps.updateMany(query,{v_2019_s_1:'N'}, function(error, result) {
+	var mike = { name: "Mike Lee"  };
+	db.Reps.updateMany(mike,{v_2019_s_1:'N'}, function(error, result) {
     if (error) {
     	console.log("ERROR with",votingData[i].name, "!\n",error)
     };
@@ -87,9 +87,19 @@ function updateSenate() {
 		console.log("done")
 
 	})
+}
 
+function updateAll() {
+	var query = { };
+	db.Reps.updateMany(query,{prevTweets:'0'}, function(error, result) {
+    if (error) {
+    	console.log("ERROR with",votingData[i].name, "!\n",error)
+    };
+	})
+	.then((response)=>{
+		console.log("done")
 
-
+	})
 }
 
 //what are we running?

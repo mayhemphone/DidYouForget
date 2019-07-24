@@ -63,6 +63,7 @@ function processTweets(array) {
   	console.log(results)
 
 
+
   	//check for non null votes
 
 		// Object.entries(results['_doc']).forEach(([key, value]) => {
@@ -71,6 +72,7 @@ function processTweets(array) {
 		// 		// TODO: send non-null data to reply function
 		// 		console.log(key+":", value)
     //
+
 		// 	}
 
 		// })
