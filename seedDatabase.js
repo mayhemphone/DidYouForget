@@ -54,6 +54,23 @@ function find(){
 	})
 }
 
+
+function updateSenate() {
+	// writes Y to senate vote for everyone
+	var query = { chamber: "Senate" };
+	db.Reps.updateMany(query,{v_2019_s_1:'Y'}, function(error, result) {
+    if (error) {
+    	console.log("ERROR with",votingData[i].name, "!\n",error)
+    };
+	})
+	.then((response)=>{
+		console.log("done")
+
+	})
+
+}
+
 //what are we running?
 
 
+updateSenate()
