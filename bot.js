@@ -14,7 +14,7 @@ const Twit = require('twit')
 
 
 // - tweet is found matching criteria 
-// - Make sure not a retweet
+// - Make sure not a retweet - should be filtered out in search
 // - Make sure this tweet hasn’t been interacted with yet
 // - Pull voting record
 // - Reply with voting record
@@ -89,14 +89,13 @@ function replyToTweet(id, screen_name, voting_record){
 
 
 
-// T.post('statuses/update', { 
+T.post('statuses/update', { 
 		 
-// 		status: "Rep. Barbara Lee, Ca-13, record on 9/11 first responder bills:\n\n✅ 2010 - House Vote 491 - Yea\n✅ 2010 - House Vote 550 - Yea\n❓ 2010 - House Vote 664 - Not voting\n✅ 2015 - HR1786 - Sponsored Bill\n✅ 2019 - House Vote 474 - Yea\n\n#NeverForget\n#DidTheyForget"
-
+		status: "Rep. Barbara Lee, Ca-13, record on 9/11 first responder bills:\n\n✅ 2010 - House Vote 491 - Yea\n✅ 2010 - House Vote 550 - Yea\n❓ 2010 - House Vote 664 - Not voting\n✅ 2015 - HR1786 - Sponsored Bill\n✅ 2019 - House Vote 474 - Yea\n\n#NeverForget\n#DidTheyForget"
 		
-// 	}, function(err, data, response) {
-// 	  console.log(data)
-// 	})
+	}, function(err, data, response) {
+	  console.log(data)
+	})
 
 
 
@@ -132,7 +131,7 @@ function votingRecord (twitterHandle){
 
 
 
-setInterval(function(){ getMostRecentTweet(); }, 10000)
+// setInterval(function(){ getMostRecentTweet(); }, 10000)
 
 
 
