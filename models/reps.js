@@ -52,6 +52,10 @@ let repsSchema = new mongoose.Schema({
 	v_2019_s_1: {
 		type: String,
 		required:false
+	},
+	prevTweets:{
+		type: Array,
+		required:false
 	}	
 
 });

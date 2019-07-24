@@ -51,7 +51,7 @@ function processTweets(array) {
 
 			} else {
 				// didn't find a match?
-				console.log('error with ' + data.statuses[i].user.screen_name + ': ',err)
+				console.log('error with ' + item.user.screen_name + ': ',err)
 			}
 		})
   .then((results)=>{
@@ -60,20 +60,20 @@ function processTweets(array) {
     console.log(item.full_text)
 		console.log("")
   	console.log("Voting Record:")
-  	// console.log(results)
+  	console.log(results)
   	
 
   	//check for non null votes
 
-		Object.entries(results['_doc']).forEach(([key, value]) => {
+		// Object.entries(results['_doc']).forEach(([key, value]) => {
 	
-			if (value != null & key != "__v" & key != "_id"){
-				// TODO: send non-null data to reply function
-				console.log(key+":", value)
+		// 	if (value != null & key != "__v" & key != "_id"){
+		// 		// TODO: send non-null data to reply function
+		// 		console.log(key+":", value)
 
-			}
+		// 	}
 
-		})
+		// })
 		// returns for readability between tweets
    	console.log("")
 		console.log("")
