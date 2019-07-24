@@ -25,7 +25,7 @@ function searchTweets (){
 	console.clear()
 	let query = "#neverforget list:cspan/members-of-congress -filter:retweets '911' OR 'september' OR '9%2F11'"
 	T.get('search/tweets', {
-		q: query, 
+		q: query,
 		count: 500,
 		result_type: 'recent',
 		tweet_mode: 'extended'
@@ -45,13 +45,13 @@ function searchTweets (){
 function processTweets(array) {
   for (const item of array) {
     //query the db
-		db.Reps.findOne({ twitter: "@" + item.user.screen_name }, function(err,obj) { 
+		db.Reps.findOne({ twitter: "@" + item.user.screen_name }, function(err,obj) {
 			if (obj){
 				//success, do nothing
 
 			} else {
 				// didn't find a match?
-				console.log('error with ' + data.statuses[i].user.screen_name + ': ',err)
+				console.log('error with ' + item.user.screen_name + ': ',err)
 			}
 		})
   .then((results)=>{
@@ -60,20 +60,20 @@ function processTweets(array) {
     console.log(item.full_text)
 		console.log("")
   	console.log("Voting Record:")
-  	// console.log(results)
-  	
+  	console.log(results)
+
 
   	//check for non null votes
 
-		Object.entries(results['_doc']).forEach(([key, value]) => {
-	
-			if (value != null & key != "__v" & key != "_id"){
-				// TODO: send non-null data to reply function
-				console.log(key+":", value)
+		// Object.entries(results['_doc']).forEach(([key, value]) => {
+    //
+		// 	if (value != null & key != "__v" & key != "_id"){
+		// 		// TODO: send non-null data to reply function
+		// 		console.log(key+":", value)
+    //
+		// 	}
 
-			}
-
-		})
+		// })
 		// returns for readability between tweets
    	console.log("")
 		console.log("")
@@ -82,11 +82,11 @@ function processTweets(array) {
 		console.log("")
   })
   .catch((err) => {
-			  console.log('error with ' + item.user.screen_name + ': ',err)
+	  console.log('error with ' + item.user.screen_name + ': ',err)
 
-		});
-    // console.log("item:",item.user.screen_name)
-  
+	});
+  // console.log("item:",item.user.screen_name)
+
   }
 
   console.log('Done!');
