@@ -18,8 +18,6 @@ let testObj = {
   "party" : "D"
 }
 
-// ❌ ✅ ❓
-
 let votesSeq = {
   'v_2010_h_1': {
     year: '2010',
@@ -59,7 +57,6 @@ let chooseEmoji = {
 
 let votesIter = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2015_b_1', 'v_2019_h_1', 'v_2019_s_1']
 
-
 function createTweet(dataObj) {
   let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
 
@@ -80,11 +77,3 @@ function createTweet(dataObj) {
   console.log(full)
   console.log(`${full.length} characters`)
 }
-
-db.Reps.findOne({})
-.then(foundPeople => {
-  console.log(foundPeople);
-  // foundPeople.forEach(person => {
-  //
-  // })
-})
