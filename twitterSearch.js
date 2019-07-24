@@ -41,53 +41,53 @@ function searchTweets (){
 	})
 }
 
-//try this instead of loop
+// try this instead of loop
 function processTweets(array) {
   for (const item of array) {
-    //query the db
+    // query the db
 		db.Reps.findOne({ twitter: "@" + item.user.screen_name }, function(err,obj) {
 			if (obj){
-				//success, do nothing
+				// success, do nothing
 
 			} else {
 				// didn't find a match?
 				console.log('error with ' + item.user.screen_name + ': ',err)
 			}
 		})
-  .then((results)=>{
-  	console.log(item.id)
-    console.log("@"+item.user.screen_name)
-    console.log(item.full_text)
-		console.log("")
-  	console.log("Voting Record:")
-  	console.log(results)
+    .then((results)=>{
+    	console.log(item.id)
+      console.log("@"+item.user.screen_name)
+      console.log(item.full_text)
+  		console.log("")
+    	console.log("Voting Record:")
+    	console.log(results)
 
 
 
-  	//check for non null votes
+    	// check for non null votes
 
-		// Object.entries(results['_doc']).forEach(([key, value]) => {
-    //
-		// 	if (value != null & key != "__v" & key != "_id"){
-		// 		// TODO: send non-null data to reply function
-		// 		console.log(key+":", value)
-    //
+  		// Object.entries(results['_doc']).forEach(([key, value]) => {
+      //
+  		// 	if (value != null & key != "__v" & key != "_id"){
+  		// 		// TODO: send non-null data to reply function
+  		// 		console.log(key+":", value)
+      //
 
-		// 	}
+  		// 	}
 
-		// })
-		// returns for readability between tweets
-   	console.log("")
-		console.log("")
-		console.log("")
-		console.log("")
-		console.log("")
-  })
-  .catch((err) => {
-	  console.log('error with ' + item.user.screen_name + ': ',err)
+  		// })
+  		// returns for readability between tweets
+     	console.log("")
+  		console.log("")
+  		console.log("")
+  		console.log("")
+  		console.log("")
+    })
+    .catch((err) => {
+  	  console.log('error with ' + item.user.screen_name + ': ',err)
 
-	});
-  // console.log("item:",item.user.screen_name)
+  	});
+    // console.log("item:",item.user.screen_name)
 
   }
 
