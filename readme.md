@@ -16,6 +16,9 @@ Here we search the database for the voting records of the congress member via th
 
 Once the voting record is located, we send that result data to createTweet() for the response.
 
+### createTweet.js
+In this file we craft the tweet, and post it.
+
 #### createTweet ()
 This function crafts the response to the congressmember based off their voting record.  We only reply with voting records that they have actually been eligible to partake in.  If the database returns a null, we skip it.  If they voted Yes, No, or were eligble but chose not to vote, we include it in the response.
 
