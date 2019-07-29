@@ -43,13 +43,13 @@ function searchTweets (){
 	})
 }
 
-//try this instead of loop
+// try this instead of loop
 function processTweets(array) {
   for (const item of array) {
-    //query the db
+    // query the db
 		db.Reps.findOne({ twitter: "@" + item.user.screen_name }, function(err,obj) {
 			if (obj){
-				//success, do nothing
+				// success, do nothing
 
 			} else {
 				// didn't find a match?
@@ -82,6 +82,7 @@ function processTweets(array) {
 
 	});
   // console.log("item:",item.user.screen_name)
+
 
   }
 

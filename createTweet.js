@@ -33,8 +33,6 @@ let testObj = {
   "party" : "D"
 }
 
-// ❌ ✅ ❓
-
 let votesSeq = {
   'v_2010_h_1': {
     year: '2010',
@@ -110,5 +108,3 @@ module.exports ={
 
   // console.log(`${full.length} characters`)
 }
-
-
