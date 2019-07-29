@@ -1,0 +1,2171 @@
+[
+	{
+		"name":"Richard Shelby",
+		"twitter":"@SenShelby"
+	},
+	{
+		"name":"Doug Jones",
+		"twitter":"@DougJones"
+	},
+	{
+		"name":"Dan Sullivan",
+		"twitter":"@SenDanSullivan"
+	},
+	{
+		"name":"Lisa Murkowski",
+		"twitter":"@lisamurkowski"
+	},
+	{
+		"name":"Martha McSally",
+		"twitter":"@SenMcSallyAZ"
+	},
+	{
+		"name":"Kyrsten Sinema",
+		"twitter":"@SenatorSinema"
+	},
+	{
+		"name":"Tom Cotton",
+		"twitter":"@SenTomCotton"
+	},
+	{
+		"name":"John Boozman",
+		"twitter":"@JohnBoozman"
+	},
+	{
+		"name":"Dianne Feinstein",
+		"twitter":"@SenFeinstein"
+	},
+	{
+		"name":"Kamala Harris",
+		"twitter":"@KamalaHarris"
+	},
+	{
+		"name":"Cory Gardner",
+		"twitter":"@SenCoryGardner"
+	},
+	{
+		"name":"Michael Bennet",
+		"twitter":"@SenBennetCO"
+	},
+	{
+		"name":"Chris Murphy",
+		"twitter":"@ChrisMurphyCT"
+	},
+	{
+		"name":"Richard Blumenthal",
+		"twitter":"@SenBlumenthal"
+	},
+	{
+		"name":"Chris Coons",
+		"twitter":"@SenCoonsOffice"
+	},
+	{
+		"name":"Thomas Carper",
+		"twitter":"@SenatorCarper"
+	},
+	{
+		"name":"Marco Rubio",
+		"twitter":"@marcorubio"
+	},
+	{
+		"name":"Rick Scott",
+		"twitter":"@ScottforFlorida"
+	},
+	{
+		"name":"David Perdue",
+		"twitter":"@sendavidperdue"
+	},
+	{
+		"name":"Johnny Isakson",
+		"twitter":"@SenatorIsakson"
+	},
+	{
+		"name":"Brian Schatz",
+		"twitter":"@SenBrianSchatz"
+	},
+	{
+		"name":"Mazie Hirono",
+		"twitter":"@maziehirono"
+	},
+	{
+		"name":"Jim Risch",
+		"twitter":"@SenatorRisch"
+	},
+	{
+		"name":"Mike Crapo",
+		"twitter":"@MikeCrapo"
+	},
+	{
+		"name":"Tammy Duckworth",
+		"twitter":"@RepDuckworth"
+	},
+	{
+		"name":"Richard Durbin",
+		"twitter":"@SenatorDurbin"
+	},
+	{
+		"name":"Mike Braun",
+		"twitter":"@Braun4Indiana"
+	},
+	{
+		"name":"Todd Young",
+		"twitter":"@ToddYounIN"
+	},
+	{
+		"name":"Chuck Grassley",
+		"twitter":"@ChuckGrassley"
+	},
+	{
+		"name":"Joni Ernst",
+		"twitter":"@SenJoniErnst"
+	},
+	{
+		"name":"Pat Roberts",
+		"twitter":"@SenPatRoberts"
+	},
+	{
+		"name":"Jerry Moran",
+		"twitter":"@JerryMoran"
+	},
+	{
+		"name":"Rand Paul",
+		"twitter":"@RandPaul"
+	},
+	{
+		"name":"Mitch McConnell",
+		"twitter":"@McConnellPress"
+	},
+	{
+		"name":" John Kennedy",
+		"twitter":"@JohnKennedyLA"
+	},
+	{
+		"name":"Bill Cassidy",
+		"twitter":"@BillCassidy"
+	},
+	{
+		"name":"Angus King",
+		"twitter":"@SenAngusKing"
+	},
+	{
+		"name":"Susan Collins",
+		"twitter":"@SenatorCollins"
+	},
+	{
+		"name":"Chris Van Hollen",
+		"twitter":"@ChrisVanHollen"
+	},
+	{
+		"name":"Benjamin Cardin",
+		"twitter":"@SenatorCardin"
+	},
+	{
+		"name":"Elizabeth Warren",
+		"twitter":"@SenWarren"
+	},
+	{
+		"name":"Edward Markey",
+		"twitter":"@SenMarkey"
+	},
+	{
+		"name":"Debbie Stabenow",
+		"twitter":"@SenStabenow"
+	},
+	{
+		"name":"Gary Peters",
+		"twitter":"@SenGaryPeters"
+	},
+	{
+		"name":"Amy Klobuchar",
+		"twitter":"@amyklobuchar"
+	},
+	{
+		"name":"Tina Smith",
+		"twitter":"@SenTinaSmith"
+	},
+	{
+		"name":"Roger Wicker",
+		"twitter":"@SenatorWicker"
+	},
+	{
+		"name":"Cindy Hyde-Smith",
+		"twitter":"@SenHydeSmith"
+	},
+	{
+		"name":"Josh Hawley",
+		"twitter":"@HawleyMO"
+	},
+	{
+		"name":"Roy Blunt",
+		"twitter":"@RoyBlunt"
+	},
+	{
+		"name":"Jon Tester",
+		"twitter":"@SenatorTester"
+	},
+	{
+		"name":"Steve Daines",
+		"twitter":"@SteveDaines"
+	},
+	{
+		"name":"Ben Sasse",
+		"twitter":"@SenSasse"
+	},
+	{
+		"name":"Deb Fischer",
+		"twitter":"@SenatorFischer"
+	},
+	{
+		"name":"Jacky Rosen",
+		"twitter":"@SenJackyRosen"
+	},
+	{
+		"name":"Catherine Cortez Mastro",
+		"twitter":"@CatherineForNV"
+	},
+	{
+		"name":"Jeanne Shaheen",
+		"twitter":"@SenatorShaheen"
+	},
+	{
+		"name":"Maggie Hassan",
+		"twitter":"@Maggie_Hassan"
+	},
+	{
+		"name":"Robert Menendez",
+		"twitter":"@SenatorMenendez"
+	},
+	{
+		"name":"Cory Booker",
+		"twitter":"@CoryBooker"
+	},
+	{
+		"name":"Tom Udall",
+		"twitter":"@SenatorTomUdall"
+	},
+	{
+		"name":"Martin Heinrich",
+		"twitter":"@MartinHeinrich"
+	},
+	{
+		"name":"Chuck Schumer",
+		"twitter":"@SenSchumer"
+	},
+	{
+		"name":"Kirsten Gillibrand",
+		"twitter":"@SenGillibrand"
+	},
+	{
+		"name":"Thom Tillis",
+		"twitter":"@SenThomTillis"
+	},
+	{
+		"name":"Richard Burr",
+		"twitter":"@SenatorBurr"
+	},
+	{
+		"name":"John Hoeven",
+		"twitter":"@SenJohnHoeven"
+	},
+	{
+		"name":"Kevin Cramer",
+		"twitter":"@SenKevinCramer"
+	},
+	{
+		"name":"Rob Portman",
+		"twitter":"@senrobportman"
+	},
+	{
+		"name":"Sherrod Brown",
+		"twitter":"@SenSherrodBrown"
+	},
+	{
+		"name":"James Lankford",
+		"twitter":"@SenatorLankford"
+	},
+	{
+		"name":"Jim Inhofe",
+		"twitter":"@InhofePress"
+	},
+	{
+		"name":"Ron Wyden",
+		"twitter":"@RonWyden"
+	},
+	{
+		"name":"Jeff Merkley",
+		"twitter":"@SenJeffMerkley"
+	},
+	{
+		"name":"Patrick Toomey",
+		"twitter":"@SenToomey"
+	},
+	{
+		"name":" Jr. Bob Casey",
+		"twitter":"@SenBobCasey"
+	},
+	{
+		"name":"Sheldon Whitehouse",
+		"twitter":"@SenWhitehouse"
+	},
+	{
+		"name":"Jack Reed",
+		"twitter":"@SenJackReed"
+	},
+	{
+		"name":"Tim Scott",
+		"twitter":"@SenatorTimScott"
+	},
+	{
+		"name":"Lindsey Graham",
+		"twitter":"@GrahamBlog"
+	},
+	{
+		"name":"John Thune",
+		"twitter":"@SenJohnThune"
+	},
+	{
+		"name":"Mike Rounds",
+		"twitter":"@SenatorRounds"
+	},
+	{
+		"name":"Marsha Blackburn",
+		"twitter":"@MarshaBlackburn"
+	},
+	{
+		"name":"Lamar Alexander",
+		"twitter":"@SenAlexander"
+	},
+	{
+		"name":"Ted Cruz",
+		"twitter":"@SenTedCruz"
+	},
+	{
+		"name":"John Cornyn",
+		"twitter":"@JohnCornyn"
+	},
+	{
+		"name":"Mike Lee",
+		"twitter":"@SenMikeLee"
+	},
+	{
+		"name":"Mitt Romney",
+		"twitter":"@SenatorRomney"
+	},
+	{
+		"name":"Bernie Sanders",
+		"twitter":"@SenSanders"
+	},
+	{
+		"name":"Patrick Leahy",
+		"twitter":" @SenatorLeahy"
+	},
+	{
+		"name":"Mark Warner",
+		"twitter":"@MarkWarner"
+	},
+	{
+		"name":"Tim Kaine",
+		"twitter":"@timkaine"
+	},
+	{
+		"name":"Patty Murray",
+		"twitter":"@PattyMurray"
+	},
+	{
+		"name":"Maria Cantwell",
+		"twitter":"@SenMikeLee"
+	},
+	{
+		"name":"Joe Manchin",
+		"twitter":"@Sen_JoeManchin"
+	},
+	{
+		"name":"Shelley Moore Capito",
+		"twitter":"@SenCapito"
+	},
+	{
+		"name":"Ron Johnson",
+		"twitter":"@SenRonJohnson"
+	},
+	{
+		"name":"Tammy Baldwin",
+		"twitter":"@SenatorBaldwin"
+	},
+	{
+		"name":"Mike Enzi",
+		"twitter":"@SenatorEnzi"
+	},
+	{
+		"name":"John Barrasso",
+		"twitter":"@SenJohnBarrasso"
+	},
+	{
+		"name":" Representative",
+			"twitter":
+		"Twitter"
+	},
+	{
+		"name":" Bradley Byrne",
+		"twitter":"@RepByrne"
+	},
+	{
+		"name":" Martha Roby",
+		"twitter":"@RepMarthaRoby"
+	},
+	{
+		"name":" Mike Rogers",
+		"twitter":"@RepMikeRogersAL"
+	},
+	{
+		"name":" Robert Aderholt",
+		"twitter":"@Robert_Aderholt"
+	},
+	{
+		"name":" Mo Brooks",
+		"twitter":"@RepMoBrooks"
+	},
+	{
+		"name":" Gary Palmer",
+		"twitter":"@USRepGaryPalmer"
+	},
+	{
+		"name":" Terri A. Sewell",
+		"twitter":"@RepTerriSewell"
+	},
+	{
+		"name":" Don Young",
+		"twitter":"@repdonyoung"
+	},
+	{
+		"name":" Amata Radewagen",
+		"twitter":"@RepAmata"
+	},
+	{
+		"name":" Tom O’Halleran",
+		"twitter":"@TomOHalleran"
+	},
+	{
+		"name":" Ann Kirkpatrick",
+		"twitter":"@RepKirkPatrick"
+	},
+	{
+		"name":" Raul Grijalva",
+		"twitter":"@RepRaulGrijalva"
+	},
+	{
+		"name":" Paul A. Gosar",
+		"twitter":"@RepGosar"
+	},
+	{
+		"name":" Andy Biggs",
+		"twitter":"@AndyBiggs4AZ"
+	},
+	{
+		"name":" David Schweikert",
+		"twitter":"@RepDavid"
+	},
+	{
+		"name":" Ruben Gallego",
+		"twitter":"@RepRubenGallego"
+	},
+	{
+		"name":" Debbie  Lesko",
+		"twitter":"@RepDLesko"
+	},
+	{
+		"name":" Greg Stanton",
+		"twitter":"@RepGregStanton"
+	},
+	{
+		"name":" Rick Crawford",
+		"twitter":"@RepRickCrawford"
+	},
+	{
+		"name":" French Hill",
+		"twitter":"@RepFrenchHill"
+	},
+	{
+		"name":" Steve Womack",
+		"twitter":"@rep_stevewomack"
+	},
+	{
+		"name":" Bruce Westerman",
+		"twitter":"@RepWesterman"
+	},
+	{
+		"name":" Josh Harder",
+		"twitter":"@RepJoshHarder"
+	},
+	{
+		"name":" Mark DeSaulnier",
+		"twitter":"@RepDeSaulnier"
+	},
+	{
+		"name":" Nancy Pelosi",
+		"twitter":"@NancyPelosi"
+	},
+	{
+		"name":" Barbara Lee",
+		"twitter":"@RepBarbaraLee"
+	},
+	{
+		"name":" Jackie Speier",
+		"twitter":"@RepSpeier"
+	},
+	{
+		"name":" Eric Swalwell",
+		"twitter":"@RepSwalwell"
+	},
+	{
+		"name":" Jim Costa",
+		"twitter":"@RepJimCosta"
+	},
+	{
+		"name":" Ro Khanna",
+		"twitter":"@RoKhannaUSA"
+	},
+	{
+		"name":" Anna G. Eshoo",
+		"twitter":"@RepAnnaEshoo"
+	},
+	{
+		"name":" Zoe Lofgren",
+		"twitter":"@RepZoeLofgren"
+	},
+	{
+		"name":" Doug LaMalfa",
+		"twitter":"@RepLaMalfa"
+	},
+	{
+		"name":" Jimmy Panetta",
+		"twitter":"@JimmyPanetta"
+	},
+	{
+		"name":" TJ Cox",
+		"twitter":"@RepTJCox"
+	},
+	{
+		"name":" Devin Nunes",
+		"twitter":"@Rep_DevinNunes"
+	},
+	{
+		"name":" Kevin McCarthy",
+		"twitter":"@GOPLeader"
+	},
+	{
+		"name":" Salud Carbajal",
+		"twitter":"@CarbajalSalud"
+	},
+	{
+		"name":" Katie Hill",
+		"twitter":"@RepKatieHill"
+	},
+	{
+		"name":" Julia Brownley",
+		"twitter":"@JuliaBrownley26"
+	},
+	{
+		"name":" Judy Chu",
+		"twitter":"@RepJudyChu"
+	},
+	{
+		"name":" Adam Schiff",
+		"twitter":"@RepAdamSchiff"
+	},
+	{
+		"name":" Tony Cárdenas",
+		"twitter":"@RepCardenas"
+	},
+	{
+		"name":" Jared Huffman",
+		"twitter":"@RepHuffman"
+	},
+	{
+		"name":" Brad Sherman",
+		"twitter":"@BradSherman"
+	},
+	{
+		"name":" Pete Aguilar",
+		"twitter":"@RepPeteAguilar"
+	},
+	{
+		"name":" Grace Napolitano",
+		"twitter":"@gracenapolitano"
+	},
+	{
+		"name":" Ted Lieu",
+		"twitter":"@RepTedLieu"
+	},
+	{
+		"name":" Jimmy Gomez",
+		"twitter":"@RepJimmyGomez"
+	},
+	{
+		"name":" Norma Torres",
+		"twitter":"@NormaJTorres"
+	},
+	{
+		"name":" Raul Ruiz",
+		"twitter":"@CongressmanRuiz"
+	},
+	{
+		"name":" Karen Bass",
+		"twitter":"@RepKarenBass"
+	},
+	{
+		"name":" Linda Sánchez",
+		"twitter":"@RepLindaSanchez"
+	},
+	{
+		"name":" Gilbert Ray Jr. Cisneros",
+		"twitter":"@RepGilCisneros"
+	},
+	{
+		"name":" John Garamendi",
+		"twitter":"@RepGaramendi"
+	},
+	{
+		"name":" Lucille Roybal-Allard",
+		"twitter":"@RepRoybalAllard"
+	},
+	{
+		"name":" Mark Takano",
+		"twitter":"@RepMarkTakano"
+	},
+	{
+		"name":" Ken Calvert",
+		"twitter":"@KenCalvert"
+	},
+	{
+		"name":" Maxine Waters",
+		"twitter":"@MaxineWaters"
+	},
+	{
+		"name":" Nanette Barragan",
+		"twitter":"@Nanette4CA"
+	},
+	{
+		"name":" Katie Porter",
+		"twitter":"@RepKatiePorter"
+	},
+	{
+		"name":" Lou Correa",
+		"twitter":"@LouCorreaCA"
+	},
+	{
+		"name":" Alan Lowenthal",
+		"twitter":"@RepLowenthal"
+	},
+	{
+		"name":" Harley Rouda",
+		"twitter":"@RepHarley"
+	},
+	{
+		"name":" Mike Levin",
+		"twitter":"@RepMikeLevin"
+	},
+	{
+		"name":" Tom McClintock",
+		"twitter":"@RepMcClintock"
+	},
+	{
+		"name":" Duncan D. Hunter",
+		"twitter":"@Rep_Hunter"
+	},
+	{
+		"name":" Juan Vargas",
+		"twitter":"@RepJuanVargas"
+	},
+	{
+		"name":" Scott Peters",
+		"twitter":"@RepScottPeters"
+	},
+	{
+		"name":" Susan Davis",
+		"twitter":"@RepSusanDavis"
+	},
+	{
+		"name":" Mike Thompson",
+		"twitter":"@RepThompson"
+	},
+	{
+		"name":" Doris O. Matsui",
+		"twitter":"@DorisMatsui"
+	},
+	{
+		"name":" Ami Bera",
+		"twitter":"@RepBera"
+	},
+	{
+		"name":" Paul Cook",
+		"twitter":"@RepPaulCook"
+	},
+	{
+		"name":" Jerry McNerney",
+		"twitter":"@RepMcNerney"
+	},
+	{
+		"name":" Diana DeGette",
+		"twitter":"@RepDianaDeGette"
+	},
+	{
+		"name":" Joe Neguse",
+		"twitter":"@RepJoeNeguse"
+	},
+	{
+		"name":" Scott Tipton",
+		"twitter":"@RepTipton"
+	},
+	{
+		"name":" Ken Buck",
+		"twitter":"@RepKenBuck"
+	},
+	{
+		"name":" Doug Lamborn",
+		"twitter":"@RepDLamborn"
+	},
+	{
+		"name":" Jason Crow",
+		"twitter":"@RepJasonCrow"
+	},
+	{
+		"name":" Ed Perlmutter",
+		"twitter":"@RepPerlmutter"
+	},
+	{
+		"name":" John B. Larson",
+		"twitter":"@RepJohnLarson"
+	},
+	{
+		"name":" Joe Courtney",
+		"twitter":"@RepJoeCourtney"
+	},
+	{
+		"name":" Rosa L. DeLauro",
+		"twitter":"@rosadelauro"
+	},
+	{
+		"name":" Jim Himes",
+		"twitter":"@jahimes"
+	},
+	{
+		"name":" Jahana Hayes",
+		"twitter":"@RepJahanaHayes"
+	},
+	{
+		"name":" Lisa Blunt Rochester",
+		"twitter":"@LisaBRochester"
+	},
+	{
+		"name":" Eleanor Holmes Norton",
+		"twitter":"@EleanorNorton"
+	},
+	{
+		"name":" Val Demings",
+		"twitter":"@Val_Demings"
+	},
+	{
+		"name":" Daniel Webster",
+		"twitter":"@RepWebster"
+	},
+	{
+		"name":" Gus M. Bilirakis",
+		"twitter":"@RepGusBilirakis"
+	},
+	{
+		"name":" Charlie Crist",
+		"twitter":"@CharlieCrist"
+	},
+	{
+		"name":" Kathy Castor",
+		"twitter":"@USRepKCastor"
+	},
+	{
+		"name":" Ross Spano",
+		"twitter":"@RepRossSpano"
+	},
+	{
+		"name":" Vern Buchanan",
+		"twitter":"@VernBuchanan"
+	},
+	{
+		"name":" W. Gregory Steube",
+		"twitter":"@RepGregSteube"
+	},
+	{
+		"name":" Brian Mast",
+		"twitter":"@BrianMastFL"
+	},
+	{
+		"name":" Francis Rooney",
+		"twitter":"@FrancisRooney"
+	},
+	{
+		"name":" Matt Gaetz",
+		"twitter":"@MattGaetz"
+	},
+	{
+		"name":" Alcee L. Hastings",
+		"twitter":"@RepHastingsFL"
+	},
+	{
+		"name":" Lois Frankel",
+		"twitter":"@RepLoisFrankel"
+	},
+	{
+		"name":" Ted Deutch",
+		"twitter":"@RepTedDeutch"
+	},
+	{
+		"name":" Debbie Wasserman Schultz",
+		"twitter":"@RepDWStweets"
+	},
+	{
+		"name":" Frederica Wilson",
+		"twitter":"@RepWilson"
+	},
+	{
+		"name":" Mario Diaz-Balart",
+		"twitter":"@MarioDB"
+	},
+	{
+		"name":" Debbie Mucarsel-Powell",
+		"twitter":"@RepDMP"
+	},
+	{
+		"name":" Donna E. Shalala",
+		"twitter":"@RepShalala"
+	},
+	{
+		"name":" Neal Dunn",
+		"twitter":"@DrNealDunn"
+	},
+	{
+		"name":" Ted Yoho",
+		"twitter":"@RepTedYoho"
+	},
+	{
+		"name":" John Rutherford",
+		"twitter":"@JRutherfordFL"
+	},
+	{
+		"name":" Al Lawson",
+		"twitter":"@AlLawsonJr"
+	},
+	{
+		"name":" Michael Waltz",
+		"twitter":"@RepMichaelWaltz"
+	},
+	{
+		"name":" Stephanie Murphy",
+		"twitter":"@SMurphyCongress"
+	},
+	{
+		"name":" Bill Posey",
+		"twitter":"@congbillposey"
+	},
+	{
+		"name":" Darren Soto",
+		"twitter":"@USRepDarrenSoto"
+	},
+	{
+		"name":" Jody Hice",
+		"twitter":"@CongressmanHice"
+	},
+	{
+		"name":" Barry Loudermilk",
+		"twitter":"@RepLoudermilk"
+	},
+	{
+		"name":" Rick Allen",
+		"twitter":"@RepRickAllen"
+	},
+	{
+		"name":" David Scott",
+		"twitter":"@repdavidscott"
+	},
+	{
+		"name":" Tom Graves",
+		"twitter":"@RepTomGraves"
+	},
+	{
+		"name":" Buddy Carter",
+		"twitter":"@RepBuddyCarter"
+	},
+	{
+		"name":" Sanford D. Bishop Jr.",
+		"twitter":"@SanfordBishop"
+	},
+	{
+		"name":" Drew Ferguson",
+		"twitter":"@DrewFergusonGA"
+	},
+	{
+		"name":" Henry C. “Hank” Jr. Johnson",
+		"twitter":"@RepHankJohnson"
+	},
+	{
+		"name":" John Lewis",
+		"twitter":"@repjohnlewis"
+	},
+	{
+		"name":" Lucy McBath",
+		"twitter":"@RepLucyMcBath"
+	},
+	{
+		"name":" Robert Woodall",
+		"twitter":"@RepRobWoodall"
+	},
+	{
+		"name":" Austin Scott",
+		"twitter":"@AustinScottGA08"
+	},
+	{
+		"name":" Doug Collins",
+		"twitter":"@RepDougCollins"
+	},
+	{
+		"name":" Michael F.Q. San Nicolas",
+		"twitter":""
+	},
+	{
+		"name":" Ed Case",
+		"twitter":"@RepEdCase"
+	},
+	{
+		"name":" Tulsi Gabbard",
+		"twitter":"@TulsiPress"
+	},
+	{
+		"name":" Russ Fulcher",
+		"twitter":"@RepRussFulcher"
+	},
+	{
+		"name":" Mike Simpson",
+		"twitter":"@CongMikeSimpson"
+	},
+	{
+		"name":" Bradley Schneider",
+		"twitter":"@RepSchneider"
+	},
+	{
+		"name":" Bill Foster",
+		"twitter":"@RepBillFoster"
+	},
+	{
+		"name":" Mike Bost",
+		"twitter":"@RepBost"
+	},
+	{
+		"name":" Rodney Davis",
+		"twitter":"@RodneyDavis"
+	},
+	{
+		"name":" Lauren Underwood",
+		"twitter":"@RepUnderwood"
+	},
+	{
+		"name":" John Shimkus",
+		"twitter":"@RepShimkus"
+	},
+	{
+		"name":" Adam Kinzinger",
+		"twitter":"@RepKinzinger"
+	},
+	{
+		"name":" Cheri Bustos",
+		"twitter":"@RepCheri"
+	},
+	{
+		"name":"Darin LaHood",
+		"twitter":"@ElectLaHood"
+	},
+	{
+		"name":" Bobby L. Rush",
+		"twitter":"@RepBobbyRush"
+	},
+	{
+		"name":" Robin Kelly",
+		"twitter":"@RepRobinKelly"
+	},
+	{
+		"name":" Daniel Lipinski",
+		"twitter":"@RepLipinski"
+	},
+	{
+		"name":" Jesus “Chuy” Garcia",
+		"twitter":"@RepChuyGarcia"
+	},
+	{
+		"name":" Mike Quigley",
+		"twitter":"@RepMikeQuigley"
+	},
+	{
+		"name":" Sean Casten",
+		"twitter":"@RepCasten"
+	},
+	{
+		"name":" Danny K. Davis",
+		"twitter":"@RepDannyDavis"
+	},
+	{
+		"name":" Raja Krishnamoorthi",
+		"twitter":"@RajaForCongress"
+	},
+	{
+		"name":" Jan Schakowsky",
+		"twitter":"@janschakowsky"
+	},
+	{
+		"name":" Peter Visclosky",
+		"twitter":"@RepVisclosky"
+	},
+	{
+		"name":" Jackie Walorski",
+		"twitter":"@RepWalorski"
+	},
+	{
+		"name":" Jim Banks",
+		"twitter":"@Jim_Banks"
+	},
+	{
+		"name":" James Baird",
+		"twitter":"@RepJimBaird"
+	},
+	{
+		"name":" Susan W. Brooks",
+		"twitter":"@SusanWBrooks"
+	},
+	{
+		"name":" Greg Pence",
+		"twitter":"@RepGregPence"
+	},
+	{
+		"name":" André Carson",
+		"twitter":"@RepAndreCarson"
+	},
+	{
+		"name":" Larry Bucshon",
+		"twitter":"@RepLarryBucshon"
+	},
+	{
+		"name":" Trey Hollingsworth",
+		"twitter":"@VoteForTrey"
+	},
+	{
+		"name":" Abby Finkenauer",
+		"twitter":"@RepFinkenauer"
+	},
+	{
+		"name":" David Loebsack",
+		"twitter":"@daveloebsack"
+	},
+	{
+		"name":" Cynthia Axne",
+		"twitter":"@RepCindyAxne"
+	},
+	{
+		"name":" Steve King",
+		"twitter":"@SteveKingIA"
+	},
+	{
+		"name":" Roger Marshall",
+		"twitter":"@RogerMarshallMD"
+	},
+	{
+		"name":" Steve Watkins",
+		"twitter":"@Rep_Watkins"
+	},
+	{
+		"name":" Sharice Davids",
+		"twitter":"@RepDavids"
+	},
+	{
+		"name":" Ron Estes",
+		"twitter":"@RepRonEstes"
+	},
+	{
+		"name":" James Comer",
+		"twitter":"@KYComer"
+	},
+	{
+		"name":" S. Brett Guthrie",
+		"twitter":"@RepGuthrie"
+	},
+	{
+		"name":" John A. Yarmuth",
+		"twitter":"@RepJohnYarmuth"
+	},
+	{
+		"name":" Thomas Massie",
+		"twitter":"@RepThomasMassie"
+	},
+	{
+		"name":" Harold Rogers",
+		"twitter":"@RepHalRogers"
+	},
+	{
+		"name":" Andy Barr",
+		"twitter":"@RepAndyBarr"
+	},
+	{
+		"name":" Steve Scalise",
+		"twitter":"@SteveScalise"
+	},
+	{
+		"name":" Cedric Richmond",
+		"twitter":"@RepRichmond"
+	},
+	{
+		"name":" Clay Higgins",
+		"twitter":"@CaptClayHIggins"
+	},
+	{
+		"name":" Mike Johnson",
+		"twitter":"@RepMikeJohnson"
+	},
+	{
+		"name":" Ralph Abraham",
+		"twitter":"@RepAbraham"
+	},
+	{
+		"name":" Garret Graves",
+		"twitter":"@RepGarretGraves"
+	},
+	{
+		"name":" Chellie Pingree",
+		"twitter":"@chelliepingree"
+	},
+	{
+		"name":" Jared Golden",
+		"twitter":"@RepGolden"
+	},
+	{
+		"name":" Andy Harris",
+		"twitter":"@RepAndyHarrisMD"
+	},
+	{
+		"name":" C. A. Dutch Ruppersberger",
+		"twitter":"@Call_Me_Dutch"
+	},
+	{
+		"name":" John P. Sarbanes",
+		"twitter":"@RepSarbanes"
+	},
+	{
+		"name":" Anthony Brown",
+		"twitter":"@BrownforMD"
+	},
+	{
+		"name":" Steny H. Hoyer",
+		"twitter":"@WhipHoyer"
+	},
+	{
+		"name":" David Trone",
+		"twitter":"@RepDavidTrone"
+	},
+	{
+		"name":" Elijah Cummings",
+		"twitter":"@RepCummings"
+	},
+	{
+		"name":" Jamie Raskin",
+		"twitter":"@Jamie_Raskin"
+	},
+	{
+		"name":" Richard E. Neal",
+		"twitter":"@RepRichardNeal"
+	},
+	{
+		"name":" James McGovern",
+		"twitter":"@RepMcGovern"
+	},
+	{
+		"name":" Lori Trahan",
+		"twitter":"@RepLoriTrahan"
+	},
+	{
+		"name":" Joseph P. Kennedy III",
+		"twitter":"@RepJoeKennedy"
+	},
+	{
+		"name":" Katherine Clark",
+		"twitter":"@RepKClark"
+	},
+	{
+		"name":" Seth Moulton",
+		"twitter":"@teammoulton"
+	},
+	{
+		"name":" Ayanna Pressley",
+		"twitter":"@RepPressley"
+	},
+	{
+		"name":" Stephen F. Lynch",
+		"twitter":"@RepStephenLynch"
+	},
+	{
+		"name":" William Keating",
+		"twitter":"@USRepKeating"
+	},
+	{
+		"name":" Paul Mitchell",
+		"twitter":"@PaulMitchell4us"
+	},
+	{
+		"name":" Haley Stevens",
+		"twitter":"@RepHaleyStevens"
+	},
+	{
+		"name":" Debbie Dingell",
+		"twitter":"@RepDebDingell"
+	},
+	{
+		"name":" Rashida Tlaib",
+		"twitter":"@RepRashida"
+	},
+	{
+		"name":" Brenda Lawrence",
+		"twitter":"@RepLawrence"
+	},
+	{
+		"name":" Jack Bergman",
+		"twitter":"@JackBergman_MI1"
+	},
+	{
+		"name":" Bill Huizenga",
+		"twitter":"@RepHuizenga"
+	},
+	{
+		"name":" Justin Amash",
+		"twitter":"@justinamash"
+	},
+	{
+		"name":" John Moolenaar",
+		"twitter":"@RepMoolenaar"
+	},
+	{
+		"name":" Daniel Kildee",
+		"twitter":"@RepDanKildee"
+	},
+	{
+		"name":" Fred Upton",
+		"twitter":"@RepFredUpton"
+	},
+	{
+		"name":" Tim Walberg",
+		"twitter":"@RepWalberg"
+	},
+	{
+		"name":" Elissa Slotkin",
+		"twitter":"@HouseDemocrats"
+	},
+	{
+		"name":" Sander Levin",
+		"twitter":"@repsandylevin"
+	},
+	{
+		"name":" Jim Hagedorn",
+		"twitter":"@RepHagedorn"
+	},
+	{
+		"name":" Angie Craig",
+		"twitter":"@RepAngieCraig"
+	},
+	{
+		"name":" Dean Phillips",
+		"twitter":"@RepDeanPhillips"
+	},
+	{
+		"name":" Betty McCollum",
+		"twitter":"@BettyMcCollum04"
+	},
+	{
+		"name":" Ilhan Omar",
+		"twitter":"@Ilhan"
+	},
+	{
+		"name":" Tom Emmer",
+		"twitter":"@RepTomEmmer"
+	},
+	{
+		"name":" Collin C. Peterson",
+		"twitter":"@collinpeterson"
+	},
+	{
+		"name":" Pete Stauber",
+		"twitter":"@RepPeteStauber"
+	},
+	{
+		"name":" Trent Kelly",
+		"twitter":"@RepTrentKelly"
+	},
+	{
+		"name":" Bennie G. Thompson",
+		"twitter":"@BennieGThompson"
+	},
+	{
+		"name":" Michael Guest",
+		"twitter":"@RepMichaelGuest"
+	},
+	{
+		"name":" Steven Palazzo",
+		"twitter":"@CongPalazzo"
+	},
+	{
+		"name":" William “Lacy” Clay Jr.",
+		"twitter":"@LacyClayMO1"
+	},
+	{
+		"name":" Ann Wagner",
+		"twitter":"@RepAnnWagner"
+	},
+	{
+		"name":" Blaine Luetkemeyer",
+		"twitter":"@RepBlainePress"
+	},
+	{
+		"name":" Vicky Hartzler",
+		"twitter":"@RepHartzler"
+	},
+	{
+		"name":" Emanuel Cleaver",
+		"twitter":"@repcleaver"
+	},
+	{
+		"name":" Sam Graves",
+		"twitter":"@RepSamGraves"
+	},
+	{
+		"name":" Billy Long",
+		"twitter":"@USRepLong"
+	},
+	{
+		"name":" Jason Smith",
+		"twitter":"@RepJasonSmith"
+	},
+	{
+		"name":" Greg Gianforte",
+		"twitter":""
+	},
+	{
+		"name":" Jeff Fortenberry",
+		"twitter":"@JeffFortenberry"
+	},
+	{
+		"name":" Don Bacon",
+		"twitter":"@DonBacon2016"
+	},
+	{
+		"name":" Adrian Smith",
+		"twitter":"@RepAdrianSmith"
+	},
+	{
+		"name":" Dina Titus",
+		"twitter":"@repdinatitus"
+	},
+	{
+		"name":" Mark Amodei",
+		"twitter":"@MarkAmodeiNV2"
+	},
+	{
+		"name":" Susie Lee",
+		"twitter":"@RepSusieLee"
+	},
+	{
+		"name":" Steven Horsford",
+		"twitter":"@RepHorsford"
+	},
+	{
+		"name":" Chris Pappas",
+		"twitter":"@RepChrisPappas"
+	},
+	{
+		"name":" Ann Kuster",
+		"twitter":"@RepAnnieKuster"
+	},
+	{
+		"name":" Donald Payne Jr.",
+		"twitter":"@RepDonaldPayne"
+	},
+	{
+		"name":" Mikie Sherrill",
+		"twitter":"@RepSherrill"
+	},
+	{
+		"name":" Bonnie Watson Coleman",
+		"twitter":"@RepBWColeman"
+	},
+	{
+		"name":" Donald Norcross",
+		"twitter":"@DonNorcross4NJ"
+	},
+	{
+		"name":" Jefferson Van Drew",
+		"twitter":"@JeffVanDrew"
+	},
+	{
+		"name":" Andy Kim",
+		"twitter":"@RepAndyKimNJ"
+	},
+	{
+		"name":" Chris Smith",
+		"twitter":"@RepChrisSmith"
+	},
+	{
+		"name":" Josh Gottheimer",
+		"twitter":"@JoshGottheimer"
+	},
+	{
+		"name":" Frank Pallone Jr.",
+		"twitter":"@FrankPallone"
+	},
+	{
+		"name":" Tom Malinowski",
+		"twitter":"@RepMalinowski"
+	},
+	{
+		"name":" Albio Sires",
+		"twitter":"@RepSires"
+	},
+	{
+		"name":" Bill Pascrell Jr.",
+		"twitter":"@BillPascrell"
+	},
+	{
+		"name":" Debra Haaland",
+		"twitter":"@RepDebHaaland"
+	},
+	{
+		"name":" Xochiti Torres Small",
+		"twitter":"@RepTorresSmall"
+	},
+	{
+		"name":" Ben R. Lujan",
+		"twitter":"@repbenraylujan"
+	},
+	{
+		"name":" Jerrold Nadler",
+		"twitter":"@RepJerryNadler"
+	},
+	{
+		"name":" Max Rose",
+		"twitter":"@RepMaxRose"
+	},
+	{
+		"name":" Carolyn Maloney",
+		"twitter":"@RepMaloney"
+	},
+	{
+		"name":" Adriano Espaillat",
+		"twitter":"@EspaillatNY"
+	},
+	{
+		"name":" Alexandria Ocasio-Cortez",
+		"twitter":"@RepAOC"
+	},
+	{
+		"name":" José E. Serrano",
+		"twitter":"@RepJoseSerrano"
+	},
+	{
+		"name":" Eliot Engel",
+		"twitter":"@RepEliotEngel"
+	},
+	{
+		"name":" Nita Lowey",
+		"twitter":"@NitaLowey"
+	},
+	{
+		"name":" Sean Patrick Maloney",
+		"twitter":"@RepSeanMaloney"
+	},
+	{
+		"name":" Antonio Delgado",
+		"twitter":"@RepDelgado"
+	},
+	{
+		"name":" Lee Zeldin",
+		"twitter":"@RepLeeZeldin"
+	},
+	{
+		"name":" Paul D. Tonko",
+		"twitter":"@RepPaulTonko"
+	},
+	{
+		"name":" Elise Stefanik",
+		"twitter":"@RepStefanik"
+	},
+	{
+		"name":" Anthony Brindisi",
+		"twitter":"@RepBrindisi"
+	},
+	{
+		"name":" Tom Reed",
+		"twitter":"@RepTomReed"
+	},
+	{
+		"name":" John Katko",
+		"twitter":"@RepJohnKatko"
+	},
+	{
+		"name":" Joseph Morelle",
+		"twitter":"@RepJoeMorelle"
+	},
+	{
+		"name":" Brian Higgins",
+		"twitter":"@RepBrianHiggins"
+	},
+	{
+		"name":" Chris Collins",
+		"twitter":"@RepChrisCollins"
+	},
+	{
+		"name":" Pete King",
+		"twitter":"@RepPeteKing"
+	},
+	{
+		"name":" Tom Suozzi",
+		"twitter":"@Tom_Suozzi"
+	},
+	{
+		"name":" Kathleen Rice",
+		"twitter":"@RepKathleenRice"
+	},
+	{
+		"name":" Gregory W. Meeks",
+		"twitter":"@GregoryMeeks"
+	},
+	{
+		"name":" Grace Meng",
+		"twitter":"@RepGraceMeng"
+	},
+	{
+		"name":" Nydia M. Velázquez",
+		"twitter":"@NydiaVelazquez"
+	},
+	{
+		"name":" Hakeem Jeffries",
+		"twitter":"@RepJeffries"
+	},
+	{
+		"name":" Yvette D. Clarke",
+		"twitter":"@YvetteClarke"
+	},
+	{
+		"name":" Patrick T. McHenry",
+		"twitter":"@PatrickMcHenry"
+	},
+	{
+		"name":" Mark Meadows",
+		"twitter":"@RepMarkMeadows"
+	},
+	{
+		"name":" Alma Adams",
+		"twitter":"@RepAdams"
+	},
+	{
+		"name":" Ted Budd",
+		"twitter":"@BuddforCongress"
+	},
+	{
+		"name":" G.K. Butterfield",
+		"twitter":"@GKButterfield"
+	},
+	{
+		"name":" George Holding",
+		"twitter":"@GeorgeHolding"
+	},
+	{
+		"name":" Walter B. Jones",
+		"twitter":"@RepWalterJones"
+	},
+	{
+		"name":" David Price",
+		"twitter":"@RepDavidEPrice"
+	},
+	{
+		"name":" Virginia Foxx",
+		"twitter":"@virginiafoxx"
+	},
+	{
+		"name":" Mark Walker",
+		"twitter":"@RepMarkWalker"
+	},
+	{
+		"name":" David Rouzer",
+		"twitter":"@RepDavidRouzer"
+	},
+	{
+		"name":" Richard Hudson",
+		"twitter":"@RepRichHudson"
+	},
+	{
+		"name":" Robert Pittenger",
+		"twitter":"@reppittenger"
+	},
+	{
+		"name":" Kelly Armstrong",
+		"twitter":"@RepArmstrongND"
+	},
+	{
+		"name":" Gregorio Sablan",
+		"twitter":""
+	},
+	{
+		"name":" Michael Turner",
+		"twitter":"@RepMikeTurner"
+	},
+	{
+		"name":" Marcia L. Fudge",
+		"twitter":"@RepMarciaFudge"
+	},
+	{
+		"name":" Troy Balderson",
+		"twitter":"@RepBalderson"
+	},
+	{
+		"name":" Tim Ryan",
+		"twitter":"@RepTimRyan"
+	},
+	{
+		"name":" David Joyce",
+		"twitter":"@RepDaveJoyce"
+	},
+	{
+		"name":" Steve Stivers",
+		"twitter":"@RepSteveStivers"
+	},
+	{
+		"name":" Anthony Gonzalez",
+		"twitter":"@RepAGonzalez"
+	},
+	{
+		"name":" Steve Chabot",
+		"twitter":"@RepSteveChabot"
+	},
+	{
+		"name":" Brad Wenstrup",
+		"twitter":"@RepBradWenstrup"
+	},
+	{
+		"name":" Joyce Beatty",
+		"twitter":"@RepBeatty"
+	},
+	{
+		"name":" Jim Jordan",
+		"twitter":"@Jim_Jordan"
+	},
+	{
+		"name":" Robert E. Latta",
+		"twitter":"@boblatta"
+	},
+	{
+		"name":" Bill Johnson",
+		"twitter":"@RepBillJohnson"
+	},
+	{
+		"name":" Bob Gibbs",
+		"twitter":"@RepBobGibbs"
+	},
+	{
+		"name":" Warren Davidson",
+		"twitter":"@WarrenDavidson"
+	},
+	{
+		"name":" Marcy Kaptur",
+		"twitter":"@RepMarcyKaptur"
+	},
+	{
+		"name":" Kevin Hern",
+		"twitter":"@RepKevinHern"
+	},
+	{
+		"name":" Markwayne Mullin",
+		"twitter":"@RepMullin"
+	},
+	{
+		"name":" Frank Lucas",
+		"twitter":"@RepFrankLucas"
+	},
+	{
+		"name":" Tom Cole",
+		"twitter":"@TomColeOK04"
+	},
+	{
+		"name":" Kendra Horn",
+		"twitter":"@RepKendraHorn"
+	},
+	{
+		"name":" Suzanne Bonamici",
+		"twitter":"@RepBonamici"
+	},
+	{
+		"name":" Greg Walden",
+		"twitter":"@repgregwalden"
+	},
+	{
+		"name":" Earl Blumenauer",
+		"twitter":"@repblumenauer"
+	},
+	{
+		"name":" Peter DeFazio",
+		"twitter":"@RepPeterDeFazio"
+	},
+	{
+		"name":" Kurt Schrader",
+		"twitter":"@RepSchrader"
+	},
+	{
+		"name":" Scott Perry",
+		"twitter":"@RepScottPerry"
+	},
+	{
+		"name":" Lloyd Smucker",
+		"twitter":"@RepLloyd"
+	},
+	{
+		"name":" Tom Marino",
+		"twitter":""
+	},
+	{
+		"name":" John Joyce",
+		"twitter":"@RepJohnJoyce"
+	},
+	{
+		"name":" Guy Reschenthaler",
+		"twitter":"@GReschenthaler"
+	},
+	{
+		"name":" Glenn Thompson",
+		"twitter":"@CongressmanGT"
+	},
+	{
+		"name":" Mike Kelly",
+		"twitter":"@MikeKellyforPA"
+	},
+	{
+		"name":" Conor Lamb",
+		"twitter":"@RepConorLamb"
+	},
+	{
+		"name":" Michael Doyle",
+		"twitter":"@USRepMikeDoyle"
+	},
+	{
+		"name":" Brady Fitzpatrick",
+		"twitter":"@RepBrianFitz"
+	},
+	{
+		"name":" Brendan Boyle",
+		"twitter":"@CongBoyle"
+	},
+	{
+		"name":" Dwight Evans",
+		"twitter":"@RepDwightEvans"
+	},
+	{
+		"name":" Madeleine Dean",
+		"twitter":"@RepDean"
+	},
+	{
+		"name":" Mary-Gay Scanlon",
+		"twitter":"@RepMGS"
+	},
+	{
+		"name":" Chrissy Houlahan",
+		"twitter":"@RepHoulahan"
+	},
+	{
+		"name":" Susan Wild",
+		"twitter":"@RepSusanWild"
+	},
+	{
+		"name":" Matt Cartwright",
+		"twitter":"@RepCartwright"
+	},
+	{
+		"name":" Daniel Meuser",
+		"twitter":"@RepMeuser"
+	},
+	{
+		"name":" Jenniffer Gonzalez-Colon",
+		"twitter":"@Jenniffer2012"
+	},
+	{
+		"name":" David Cicilline",
+		"twitter":"@RepCicilline"
+	},
+	{
+		"name":" Jim Langevin",
+		"twitter":"@jimlangevin"
+	},
+	{
+		"name":" Joe Cunningham",
+		"twitter":"@RepCunningham"
+	},
+	{
+		"name":" Joe Wilson",
+		"twitter":"@RepJoeWilson"
+	},
+	{
+		"name":" Jeff Duncan",
+		"twitter":"@RepJeffDuncan"
+	},
+	{
+		"name":" William Timmons",
+		"twitter":"@RepTimmons"
+	},
+	{
+		"name":" Ralph Norman",
+		"twitter":"@RepRalphNorman"
+	},
+	{
+		"name":" James E. Clyburn",
+		"twitter":"@Clyburn"
+	},
+	{
+		"name":" Tom Rice",
+		"twitter":"@RepTomRice"
+	},
+	{
+		"name":" Dusty Johnson",
+		"twitter":"@RepDustyJohnson"
+	},
+	{
+		"name":" Phil Roe",
+		"twitter":"@DrPhilRoe"
+	},
+	{
+		"name":" Tim Burchett",
+		"twitter":"@RepTimBurchett"
+	},
+	{
+		"name":" Chuck Fleischmann",
+		"twitter":"@RepChuck"
+	},
+	{
+		"name":" Scott DesJarlais",
+		"twitter":"@DesJarlaisTN04"
+	},
+	{
+		"name":" Jim Cooper",
+		"twitter":"@repjimcooper"
+	},
+	{
+		"name":" John W. Rose",
+		"twitter":"@RepJohnRose"
+	},
+	{
+		"name":" Mark Green",
+		"twitter":"@RepMarkGreen"
+	},
+	{
+		"name":" David Kustoff",
+		"twitter":"@DavidKustoff"
+	},
+	{
+		"name":" Steve Cohen",
+		"twitter":"@RepCohen"
+	},
+	{
+		"name":" Michael T. McCaul",
+		"twitter":"@RepMcCaul"
+	},
+	{
+		"name":" K. Michael Conaway",
+		"twitter":"@ConawayTX11"
+	},
+	{
+		"name":" Kay Granger",
+		"twitter":"@RepKayGranger"
+	},
+	{
+		"name":" Mac Thornberry",
+		"twitter":"@MacTXPress"
+	},
+	{
+		"name":" Randy Weber",
+		"twitter":"@TXRandy14"
+	},
+	{
+		"name":" Vincente Gonzalez",
+		"twitter":"@VoteVincente"
+	},
+	{
+		"name":" Veronica  Escobar",
+		"twitter":"@RepEscobar"
+	},
+	{
+		"name":"",
+		"twitter":"@RepBillFlores"
+	},
+	{
+		"name":" Sheila Jackson Lee",
+		"twitter":"@JacksonLeeTX18"
+	},
+	{
+		"name":" Jodey Arrington",
+		"twitter":"@JodeyArrington"
+	},
+	{
+		"name":" Louie Gohmert",
+		"twitter":"@replouiegohmert"
+	},
+	{
+		"name":" Joaquin Castro",
+		"twitter":"@JoaquinCastrotx"
+	},
+	{
+		"name":" Chip Roy",
+		"twitter":"@RepChipRoy"
+	},
+	{
+		"name":" Pete Olson",
+		"twitter":"@PeteOlson"
+	},
+	{
+		"name":" Will Hurd",
+		"twitter":"@HurdOnTheHill"
+	},
+	{
+		"name":" Kenny Marchant",
+		"twitter":"@RepKenMarchant"
+	},
+	{
+		"name":" Roger Williams",
+		"twitter":"@RepRWilliams"
+	},
+	{
+		"name":" Michael Burgess",
+		"twitter":"@michaelcburgess"
+	},
+	{
+		"name":" Michael Cloud",
+		"twitter":"@RepCloudTX"
+	},
+	{
+		"name":" Henry Cuellar",
+		"twitter":"@RepCuellar"
+	},
+	{
+		"name":" Sylvia Garcia",
+		"twitter":"@RepSylviaGarcia"
+	},
+	{
+		"name":" Dan Crenshaw",
+		"twitter":"@RepDanCrenshaw"
+	},
+	{
+		"name":" Eddie Bernice Johnson",
+		"twitter":"@RepEBJ"
+	},
+	{
+		"name":" John Carter",
+		"twitter":"@JudgeCarter"
+	},
+	{
+		"name":" Colin Allred",
+		"twitter":"@RepColinAllred"
+	},
+	{
+		"name":" Marc Veasey",
+		"twitter":"@RepVeasey"
+	},
+	{
+		"name":" Filemon Vela",
+		"twitter":"@RepFilemonVela"
+	},
+	{
+		"name":" Lloyd Doggett",
+		"twitter":"@RepLloydDoggett"
+	},
+	{
+		"name":" Brian Babin",
+		"twitter":"@RepBrianBabin"
+	},
+	{
+		"name":" Van Taylor",
+		"twitter":"@RepVanTaylor"
+	},
+	{
+		"name":" John Ratcliffe",
+		"twitter":"@RepRatcliffe"
+	},
+	{
+		"name":" Lance Gooden",
+		"twitter":"@RepLanceGooden"
+	},
+	{
+		"name":" Ron Wright",
+		"twitter":"@RepRonWright"
+	},
+	{
+		"name":" Lizzie Fletcher",
+		"twitter":"@RepFletcher"
+	},
+	{
+		"name":" Kevin Brady",
+		"twitter":"@RepKevinBrady"
+	},
+	{
+		"name":" Al Green",
+		"twitter":"@RepAlGreen"
+	},
+	{
+		"name":" Rob Bishop",
+		"twitter":"@RepHalRogers"
+	},
+	{
+		"name":" Chris Stewart",
+		"twitter":"@RepChrisStewart"
+	},
+	{
+		"name":" John R. Curtis",
+		"twitter":"@RepJohnCurtis"
+	},
+	{
+		"name":" Ben McAdams",
+		"twitter":"@RepBenMcAdams"
+	},
+	{
+		"name":" Peter Welch",
+		"twitter":"@PeterWelch"
+	},
+	{
+		"name":" Stacey Plaskett",
+		"twitter":"@StaceyPlaskett"
+	},
+	{
+		"name":" Jennifer Wexton",
+		"twitter":"@RepWexton"
+	},
+	{
+		"name":" Gerald E. “Gerry” Connolly",
+		"twitter":"@GerryConnolly"
+	},
+	{
+		"name":" Robert J. Wittman",
+		"twitter":"@RobWittman"
+	},
+	{
+		"name":" Elaine Luria",
+		"twitter":"@RepElaineLuria"
+	},
+	{
+		"name":" Robert C. Scott",
+		"twitter":"@repbobbyscott"
+	},
+	{
+		"name":" Donald McEacchin",
+		"twitter":"@Donald_McEachin"
+	},
+	{
+		"name":" Denver Riggleman",
+		"twitter":"@RepRiggleman"
+	},
+	{
+		"name":" Ben Cline",
+		"twitter":"@RepBenCline"
+	},
+	{
+		"name":" Abigail Spanberger",
+		"twitter":"@RepSpanberger"
+	},
+	{
+		"name":" Don Beyer",
+		"twitter":"@RepDonBeyer"
+	},
+	{
+		"name":" Morgan Griffith",
+		"twitter":"@RepMGriffith"
+	},
+	{
+		"name":" Denny Heck",
+		"twitter":"@RepDennyHeck"
+	},
+	{
+		"name":" Suzan DelBene",
+		"twitter":"@RepDelBene"
+	},
+	{
+		"name":" Rick Larsen",
+		"twitter":"@RepRickLarsen"
+	},
+	{
+		"name":" Jaime Herrera Beutler",
+		"twitter":"@HerreraBeutler"
+	},
+	{
+		"name":" Dan Newhouse",
+		"twitter":"@RepNewhouse"
+	},
+	{
+		"name":" Cathy McMorris Rodgers",
+		"twitter":"@cathymcmorris"
+	},
+	{
+		"name":" Derek Kilmer",
+		"twitter":"@RepDerekKilmer"
+	},
+	{
+		"name":" Pramila Jayapal",
+		"twitter":"@PramilaJayapal"
+	},
+	{
+		"name":" Kim Schrier",
+		"twitter":"@RepKimSchrier"
+	},
+	{
+		"name":" Adam Smith",
+		"twitter":"@RepAdamSmith"
+	},
+	{
+		"name":" David McKinley",
+		"twitter":"@RepMcKinley"
+	},
+	{
+		"name":" Alex Mooney",
+		"twitter":"@RepAlexMooney"
+	},
+	{
+		"name":" Carol Miller",
+		"twitter":"@RepCarolMiller"
+	},
+	{
+		"name":" Bryan Steil",
+		"twitter":"@RepBryanSteil"
+	},
+	{
+		"name":" Mark Pocan",
+		"twitter":"@repmarkpocan"
+	},
+	{
+		"name":" Ron Kind",
+		"twitter":"@RepRonKind"
+	},
+	{
+		"name":" Gwen Moore",
+		"twitter":"@RepGwenMoore"
+	},
+	{
+		"name":" F. James Sensenbrenner",
+		"twitter":"@JimPressOffice"
+	},
+	{
+		"name":" Glenn Grothman",
+		"twitter":"@RepGrothman"
+	},
+	{
+		"name":" Sean P. Duffy",
+		"twitter":"@RepSeanDuffy"
+	},
+	{
+		"name":" Mike Gallagher",
+		"twitter":"@MikeforWI"
+	},
+	{
+		"name":" Liz Cheney",
+		"twitter":"@Liz_Cheney"
+	}
+]
