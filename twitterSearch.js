@@ -19,7 +19,6 @@ let T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
-
 // Search tweets
 function searchTweets (){
 	// search for last 500 tweets (twitter only goes back 1 week 
@@ -43,7 +42,6 @@ function searchTweets (){
 		}
 	})
 }
-
 // try this instead of loop
 function processTweets(array) {
   for (const item of array) {
@@ -65,12 +63,7 @@ function processTweets(array) {
   	console.log("Voting Record:")
   	console.log(results)
 
-
-  	// console.log(createTweet.tweet(results))
-
   	createTweet.tweet(1153872822051098625,results)
-
-
   	
    	console.log("")
 		console.log("")
@@ -80,9 +73,7 @@ function processTweets(array) {
   })
   .catch((err) => {
 	  console.log('error with ' + item.user.screen_name + ': ',err)
-
-	});
-  // console.log("item:",item.user.screen_name)
+	})
 
 
   }
@@ -96,9 +87,6 @@ function isThisNew(tweet){
 
 
 }
-
-
-
 
 // TODO: set timer to check for new tweets
 
