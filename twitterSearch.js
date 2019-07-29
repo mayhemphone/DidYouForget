@@ -9,8 +9,7 @@ const Twit = require('twit')
 
 const createTweet = require('./createTweet');
 
-// set up twit
-
+// Set up twit
 let T = new Twit({
   consumer_key:         tkey,
   consumer_secret:      tsecret,
@@ -21,9 +20,10 @@ let T = new Twit({
 })
 
 
-// TODO: Search tweets
+// Search tweets
 function searchTweets (){
-	// search for last 500 tweets (twitter only goes back 1 week with standard tier search)
+	// search for last 500 tweets (twitter only goes back 1 week 
+	// with standard tier search)
 	console.clear()
 	let query = "#neverforget list:cspan/members-of-congress -filter:retweets '911' OR 'september' OR '9%2F11'"
 	T.get('search/tweets', {
@@ -38,6 +38,7 @@ function searchTweets (){
 			return
 
 		} else {
+			// if there are results, let's process them
 			processTweets(data.statuses)
 		}
 	})

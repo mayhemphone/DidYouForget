@@ -1,10 +1,12 @@
-const db = require('./models')
 require('dotenv').config()
+
 const tkey = process.env.tkey
 const tsecret = process.env.tsecret
 const atoken = process.env.atoken
 const asecret = process.env.asecret
+
 const Twit = require('twit')
+const db = require('./models')
 
 let T = new Twit({
   consumer_key:         tkey,
@@ -70,12 +72,18 @@ let chooseEmoji = {
   'voteless': '❓'
 }
 
-let votesIter = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2015_b_1', 'v_2019_h_1', 'v_2019_s_1']
-
+let votesIter = [
+	'v_2010_h_1', 
+	'v_2010_h_2', 
+	'v_2010_h_3', 
+	'v_2010_s_1', 
+	'v_2015_b_1', 
+	'v_2019_h_1', 
+	'v_2019_s_1'
+]
 
 module.exports ={
 	tweet: function createTweet(id, dataObj) {
-		// let at = dataObj['twitter'] + ' '
 		let at = "@DidTheyForget\n"
 	  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''}\n\nRecord on 9/11 First Responder bills:`
 
@@ -93,8 +101,7 @@ module.exports ={
 	  let outro = '\n\n#NeverForget\n#DidTheyForget?'
 
 	  let full = at + intro + meat + outro
-	  // console.log(full)
-
+	  
 	  // post tweet
 		T.post('statuses/update', { 
 			in_reply_to_status_id: '1153872822051098625', 
@@ -104,7 +111,4 @@ module.exports ={
 		  console.log(data)
 		})
 	}
-  
-
-  // console.log(`${full.length} characters`)
 }
