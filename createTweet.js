@@ -1,4 +1,19 @@
 const db = require('./models')
+require('dotenv').config()
+const tkey = process.env.tkey
+const tsecret = process.env.tsecret
+const atoken = process.env.atoken
+const asecret = process.env.asecret
+const Twit = require('twit')
+
+let T = new Twit({
+  consumer_key:         tkey,
+  consumer_secret:      tsecret,
+  access_token:         atoken,
+  access_token_secret:  asecret,
+  timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
+  strictSSL:            true,     // optional - requires SSL certificates to be valid.
+})
 
 let testObj = {
   "_id" : "5d3651584021fc2b0e16afc6",
@@ -39,7 +54,7 @@ let votesSeq = {
   },
   'v_2015_b_1': {
     year: '2015',
-    text: 'HR1786 sponsor'
+    text: 'HR1786 Sponsor'
   },
   'v_2019_h_1': {
     year: '2019',
@@ -60,31 +75,40 @@ let chooseEmoji = {
 let votesIter = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2015_b_1', 'v_2019_h_1', 'v_2019_s_1']
 
 
-function createTweet(dataObj) {
-  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
+module.exports ={
+	tweet: function createTweet(id, dataObj) {
+		// let at = dataObj['twitter'] + ' '
+		let at = "@DidTheyForget\n"
+	  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''}\n\nRecord on 9/11 First Responder bills:`
 
-  let votes = []
-  votesIter.forEach((rollCall, i) => {
-    if (dataObj[rollCall]) {
-      votes.push(rollCall)
-    }
-  })
-  let meat = ''
-  votes.forEach((vote, i) => {
-    meat = meat + `\n${chooseEmoji[dataObj[vote]]} ${votesSeq[vote].year} ${votesSeq[vote].text} - ${dataObj[vote]}`
-  })
+	  let votes = []
+	  votesIter.forEach((rollCall, i) => {
+	    if (dataObj[rollCall]) {
+	      votes.push(rollCall)
+	    }
+	  })
+	  let meat = ''
+	  votes.forEach((vote, i) => {
+	    meat = meat + `\n${chooseEmoji[dataObj[vote]]} ${votesSeq[vote].year} ${votesSeq[vote].text} - ${dataObj[vote]}`
+	  })
 
-  let outro = '\n#NeverForget\n#DidTheyForget'
+	  let outro = '\n\n#NeverForget\n#DidTheyForget?'
 
-  let full = intro + meat + outro
-  console.log(full)
-  console.log(`${full.length} characters`)
+	  let full = at + intro + meat + outro
+	  // console.log(full)
+
+	  // post tweet
+		T.post('statuses/update', { 
+			in_reply_to_status_id: '1153872822051098625', 
+			status: full,
+			
+		}, function(err, data, response) {
+		  console.log(data)
+		})
+	}
+  
+
+  // console.log(`${full.length} characters`)
 }
 
-db.Reps.findOne({})
-.then(foundPeople => {
-  console.log(foundPeople);
-  // foundPeople.forEach(person => {
-  //
-  // })
-})
+

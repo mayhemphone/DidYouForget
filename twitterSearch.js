@@ -7,6 +7,8 @@ const asecret = process.env.asecret
 const db = require('./models')
 const Twit = require('twit')
 
+const createTweet = require('./createTweet');
+
 // set up twit
 
 let T = new Twit({
@@ -63,20 +65,12 @@ function processTweets(array) {
   	console.log(results)
 
 
+  	// console.log(createTweet.tweet(results))
 
-  	//check for non null votes
+  	createTweet.tweet(1153872822051098625,results)
 
-		// Object.entries(results['_doc']).forEach(([key, value]) => {
-    //
-		// 	if (value != null & key != "__v" & key != "_id"){
-		// 		// TODO: send non-null data to reply function
-		// 		console.log(key+":", value)
-    //
 
-		// 	}
-
-		// })
-		// returns for readability between tweets
+  	
    	console.log("")
 		console.log("")
 		console.log("")
@@ -102,6 +96,10 @@ function isThisNew(tweet){
 }
 
 
+
+
 // TODO: set timer to check for new tweets
 
 searchTweets()
+
+
