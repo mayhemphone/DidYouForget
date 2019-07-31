@@ -58,7 +58,7 @@ let chooseEmoji = {
 let votesIter = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2015_b_1', 'v_2019_h_1', 'v_2019_s_1']
 
 function createTweet(dataObj) {
-  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
+  let intro = `${dataObj['twitter']}\n${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
 
   let votes = []
   votesIter.forEach((rollCall, i) => {
@@ -75,5 +75,16 @@ function createTweet(dataObj) {
 
   let full = intro + meat + outro
   console.log(full)
-  console.log(`${full.length} characters`)
+  if (full.length > 260) {
+    console.log(full.length)
+  }
+  console.log()
 }
+
+db.Reps.find({})
+.then(reps => {
+  reps.forEach((rep, i) => {
+    createTweet(rep)
+    console.log(i);
+  })
+})
