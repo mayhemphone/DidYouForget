@@ -84,8 +84,11 @@ let votesIter = [
 
 module.exports ={
 	tweet: function createTweet(id, dataObj) {
-		let at = "@DidTheyForget\n"
-	  let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''}\n\nRecord on 9/11 First Responder bills:`
+		// test case commented out below
+		// let at = "@DidTheyForget\n"
+
+		let at = dataObj['twitter']+"\n"
+		let intro = `${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''}\n\nRecord on 9/11 First Responder bills:`
 
 	  let votes = []
 	  votesIter.forEach((rollCall, i) => {
@@ -98,17 +101,35 @@ module.exports ={
 	    meat = meat + `\n${chooseEmoji[dataObj[vote]]} ${votesSeq[vote].year} ${votesSeq[vote].text} - ${dataObj[vote]}`
 	  })
 
-	  let outro = '\n\n#NeverForget\n#DidTheyForget?'
+	  let outro = '\n\n#NeverForget\n#DidTheyForget'
 
 	  let full = at + intro + meat + outro
-	  
+	  let almostFull = intro + meat + outro
+
 	  // post tweet
 		T.post('statuses/update', { 
-			in_reply_to_status_id: '1153872822051098625', 
+			// test case commented out below
+			// in_reply_to_status_id: '1153872822051098625', 
+
+			in_reply_to_status_id: id, 
 			status: full,
 			
 		}, function(err, data, response) {
 		  console.log(data)
+		  //retweet this
+
 		})
+
+		// retweet their tweet with the voting record added
+		// techincally we are posting a new tweet, and linking to their tweet
+		// because there is no retweet with comment in the twitter api
+
+		// T.post('statuses/update', { 
+		// 	attachment_url: 'https://twitter.com/'+dataObj['twitter'].substr(1)+'/status/' + id, 
+		// 	status: almostFull,
+			
+		// }, function(err, data, response) {
+		//   console.log(data)
+		// })
 	}
 }

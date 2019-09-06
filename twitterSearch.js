@@ -9,6 +9,8 @@ const Twit = require('twit')
 
 const createTweet = require('./createTweet');
 
+const query = "#neverforget list:cspan/members-of-congress -filter:retweets AND -filter:replies '911' OR 'september' OR '9%2F11'"
+
 // Set up twit
 let T = new Twit({
   consumer_key:         tkey,
@@ -19,12 +21,12 @@ let T = new Twit({
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
 
+
 // Search tweets
 function searchTweets (){
 	// search for last 500 tweets (twitter only goes back 1 week 
 	// with standard tier search)
-	console.clear()
-	let query = "#neverforget list:cspan/members-of-congress -filter:retweets '911' OR 'september' OR '9%2F11'"
+	
 	T.get('search/tweets', {
 		q: query,
 		count: 500,
@@ -33,18 +35,24 @@ function searchTweets (){
 	}, function(err, data, response) {
 
 		if (data.statuses.length == 0){
-			console.log("no results")
-			return
+			console.log("no results", Date.now())
+			// return
 
 		} else {
+			console.log("\nProcess tweets:\n",data.statuses)
 			// if there are results, let's process them
+			
 			processTweets(data.statuses)
+		
 		}
+		console.log("PAST THE IF STATEMENT\n\n")
 	})
+	return
 }
-// try this instead of loop
+
 function processTweets(array) {
   for (const item of array) {
+  	let oldTweet = false
     // query the db
 		db.Reps.findOne({ twitter: "@" + item.user.screen_name }, function(err,obj) {
 			if (obj){
@@ -53,43 +61,84 @@ function processTweets(array) {
 			} else {
 				// didn't find a match?
 				console.log('error with ' + item.user.screen_name + ': ',err)
+				return
 			}
 		})
-  .then((results)=>{
-  	console.log(item.id)
-    console.log("@"+item.user.screen_name)
-    console.log(item.full_text)
-		console.log("")
-  	console.log("Voting Record:")
-  	console.log(results)
+	  .then((results)=>{
+	  	// console.log(item)
+	  	console.log(item.id_str)
+	    console.log("@"+item.user.screen_name)
+	    console.log(item.full_text)
+	  	console.log("\nVoting Record:")
+	  	console.log(results)
+	  	console.log("\nIs this a new tweet?")
+	  	
 
-  	createTweet.tweet(1153872822051098625,results)
-  	
-   	console.log("")
-		console.log("")
-		console.log("")
-		console.log("")
-		console.log("")
-  })
-  .catch((err) => {
-	  console.log('error with ' + item.user.screen_name + ': ',err)
-	})
+			results.prevTweets.forEach(function(element) {
+			  
+			  console.log("Checking current tweet against prevTweets: ",element);
 
+			  if (element === "111") {
+			  	console.log("Been there, done that")
+			  	oldTweet = true
+			  	return
 
+			  } else{
+			  	console.log("not a match")
+			  }
+			})
+	  })
+	  .then((results)=>{
+	  	// after we loop through, see if this is still a new tweet
+		  if (oldTweet === false){
+		  	console.log("dis new tweet, lets reply")
+	  		// createTweet.tweet(item.id_str,results)
+
+	  		// let's add this tweet ID to the database too
+	  		// should probably do this after the tweet reply has posted, but can't test right now
+
+	  		// conditions, update, options, callback
+	  		db.Reps.findOneAndUpdate({ twitter: "@" + item.user.screen_name },{ "$push": { prevTweets: "item.id_str" } },{ 'new': true, useFindAndModify: false },function(err,obj) {
+					if (obj){
+						// success, do nothing
+
+					} else {
+						// didn't find a match?
+						console.log('error with ' + item.user.screen_name + ': ',err)
+						//not tested
+						return
+					}
+				})
+				.then((results)=>{
+					console.log(item.id_str, "added to prevTweets")
+
+				})
+		  
+		  } else {
+		  	console.log("No reply needed\n\n\n\n")
+		  }
+	  })
+	  .then((results)=>{
+	  	console.log(oldTweet)
+	  })
+	  .catch((err) => {
+		  console.log('error with ' + item.user.screen_name + ': ',err)
+		  console.log("\n\n\n\n")
+			
+		})
   }
-
-  console.log('Done!');
 }
 
 
 // TODO: check if we've replied to this tweet previously
 function isThisNew(tweet){
 
-
+	//
 }
 
 // TODO: set timer to check for new tweets
 
-searchTweets()
 
+// setInterval(searchTweets, 10000)
+searchTweets()
 
