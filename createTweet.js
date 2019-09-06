@@ -108,15 +108,11 @@ module.exports ={
 
 	  // post tweet
 		T.post('statuses/update', { 
-			// test case commented out below
-			// in_reply_to_status_id: '1153872822051098625', 
-
 			in_reply_to_status_id: id, 
 			status: full,
-			
 		}, function(err, data, response) {
 		  console.log(data)
-		  //retweet this
+		  //retweet this?
 
 		})
 

@@ -40,8 +40,8 @@ function searchTweets (){
 
 		} else {
 			console.log("\nProcess tweets:\n",data.statuses)
-			// if there are results, let's process them
 			
+			// if there are results, let's process them
 			processTweets(data.statuses)
 		
 		}
@@ -92,13 +92,14 @@ function processTweets(array) {
 	  	// after we loop through, see if this is still a new tweet
 		  if (oldTweet === false){
 		  	console.log("dis new tweet, lets reply")
+		  	// ---------------------------------------|
+		  	// un-comment the next line when ready ---|
+
 	  		// createTweet.tweet(item.id_str,results)
 
 	  		// let's add this tweet ID to the database too
-	  		// should probably do this after the tweet reply has posted, but can't test right now
-
 	  		// conditions, update, options, callback
-	  		db.Reps.findOneAndUpdate({ twitter: "@" + item.user.screen_name },{ "$push": { prevTweets: "item.id_str" } },{ 'new': true, useFindAndModify: false },function(err,obj) {
+	  		db.Reps.findOneAndUpdate({ twitter: "@" + item.user.screen_name },{ "$push": { prevTweets: item.id_str } },{ 'new': true },function(err,obj) {
 					if (obj){
 						// success, do nothing
 
@@ -108,10 +109,6 @@ function processTweets(array) {
 						//not tested
 						return
 					}
-				})
-				.then((results)=>{
-					console.log(item.id_str, "added to prevTweets")
-
 				})
 		  
 		  } else {
@@ -139,6 +136,6 @@ function isThisNew(tweet){
 // TODO: set timer to check for new tweets
 
 
-// setInterval(searchTweets, 10000)
-searchTweets()
+setInterval(searchTweets, 10000)
+// searchTweets()
 
