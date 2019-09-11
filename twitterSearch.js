@@ -51,6 +51,9 @@ function searchTweets (){
 }
 
 function processTweets(array) {
+  // just added
+  let tweetResults
+
   for (const item of array) {
   	let oldTweet = false
     // query the db
@@ -66,6 +69,7 @@ function processTweets(array) {
 		})
 	  .then((results)=>{
 	  	// console.log(item)
+	  	tweetResults = results
 	  	console.log(item.id_str)
 	    console.log("@"+item.user.screen_name)
 	    console.log(item.full_text)
@@ -74,11 +78,13 @@ function processTweets(array) {
 	  	console.log("\nIs this a new tweet?")
 	  	
 
-			results.prevTweets.forEach(function(element) {
+
+
+			tweetResults.prevTweets.forEach(function(element) {
 			  
 			  console.log("Checking current tweet against prevTweets: ",element);
 
-			  if (element === "111") {
+			  if (element === item.id_str) {
 			  	console.log("Been there, done that")
 			  	oldTweet = true
 			  	return
@@ -94,8 +100,9 @@ function processTweets(array) {
 		  	console.log("dis new tweet, lets reply")
 		  	// ---------------------------------------|
 		  	// un-comment the next line when ready ---|
-
-	  		createTweet.tweet(item.id_str,results)
+		  	console.log("\n\n\n\n\n\nDAY OF RESULTS\n\n",tweetResults)
+		  	console.log("MAKING A TWEET")
+	  		createTweet.tweet(item.id_str,tweetResults)
 
 	  		// let's add this tweet ID to the database too
 	  		// conditions, update, options, callback
@@ -135,7 +142,7 @@ function isThisNew(tweet){
 
 // TODO: set timer to check for new tweets
 
+searchTweets()
 
-setInterval(searchTweets, 10000)
-// searchTweets()
+setInterval(searchTweets, 60000)
 
