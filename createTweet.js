@@ -73,12 +73,12 @@ let chooseEmoji = {
 }
 
 let votesIter = [
-	'v_2010_h_1', 
-	'v_2010_h_2', 
-	'v_2010_h_3', 
-	'v_2010_s_1', 
-	'v_2015_b_1', 
-	'v_2019_h_1', 
+	'v_2010_h_1',
+	'v_2010_h_2',
+	'v_2010_h_3',
+	'v_2010_s_1',
+	'v_2015_b_1',
+	'v_2019_h_1',
 	'v_2019_s_1'
 ]
 
@@ -106,18 +106,15 @@ module.exports ={
 	  let full = at + intro + meat + outro
 	  let almostFull = intro + meat + outro
 
-<<<<<<< HEAD
 function createTweet(dataObj) {
   let intro = `${dataObj['twitter']}\n${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
-=======
 	  // post tweet
-		// T.post('statuses/update', { 
-		// 	in_reply_to_status_id: id, 
+		// T.post('statuses/update', {
+		// 	in_reply_to_status_id: id,
 		// 	status: full,
 		// }, function(err, data, response) {
 		//   console.log(data)
 		//   //retweet this?
->>>>>>> 312ebdde7827ddaa670d22fe691a881b80ef1b5b
 
 		// })
 		// CONSOLE LOG TWEET
@@ -127,23 +124,20 @@ function createTweet(dataObj) {
 		// techincally we are posting a new tweet, and linking to their tweet
 		// because there is no retweet with comment in the twitter api
 
-<<<<<<< HEAD
   let full = intro + meat + outro
   console.log(full)
   if (full.length > 260) {
     console.log(full.length)
   }
   console.log()
-=======
-		// T.post('statuses/update', { 
-		// 	attachment_url: 'https://twitter.com/'+dataObj['twitter'].substr(1)+'/status/' + id, 
+		// T.post('statuses/update', {
+		// 	attachment_url: 'https://twitter.com/'+dataObj['twitter'].substr(1)+'/status/' + id,
 		// 	status: almostFull,
-			
+
 		// }, function(err, data, response) {
 		//   console.log(data)
 		// })
 	}
->>>>>>> 312ebdde7827ddaa670d22fe691a881b80ef1b5b
 }
 
 db.Reps.find({})

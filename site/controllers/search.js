@@ -68,12 +68,12 @@ let chooseEmoji = {
 }
 
 let votesIter = [
-	'v_2010_h_1', 
-	'v_2010_h_2', 
-	'v_2010_h_3', 
-	'v_2010_s_1', 
-	'v_2015_b_1', 
-	'v_2019_h_1', 
+	'v_2010_h_1',
+	'v_2010_h_2',
+	'v_2010_h_3',
+	'v_2010_s_1',
+	'v_2015_b_1',
+	'v_2019_h_1',
 	'v_2019_s_1'
 ]
 
@@ -129,6 +129,7 @@ router.get('/:handle', (req, res) => {
 	  res.send("Not found")
 		
 	})
+
 })
 
 module.exports = router

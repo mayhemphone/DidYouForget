@@ -10,7 +10,7 @@ const tsecret = process.env.tsecret
 const atoken = process.env.atoken
 const asecret = process.env.asecret
 
-const db = require('./models')
+const db = require('../models')
 const Twit = require('twit')
 
 const createTweet = require('./createTweet');
@@ -30,9 +30,9 @@ let T = new Twit({
 
 // Search tweets
 function searchTweets (){
-	// search for last 500 tweets (twitter only goes back 1 week 
+	// search for last 500 tweets (twitter only goes back 1 week
 	// with standard tier search)
-	
+
 	T.get('search/tweets', {
 		q: query,
 		count: 500,
@@ -46,10 +46,10 @@ function searchTweets (){
 
 		} else {
 			console.log("\nProcess tweets:\n",data.statuses)
-			
+
 			// if there are results, let's process them
 			processTweets(data.statuses)
-		
+
 		}
 		console.log("PAST THE IF STATEMENT\n\n")
 	})
@@ -82,12 +82,12 @@ function processTweets(array) {
 	  	console.log("\nVoting Record:")
 	  	console.log(results)
 	  	console.log("\nIs this a new tweet?")
-	  	
+
 
 
 
 			tweetResults.prevTweets.forEach(function(element) {
-			  
+
 			  console.log("Checking current tweet against prevTweets: ",element);
 
 			  if (element === item.id_str) {
@@ -123,7 +123,7 @@ function processTweets(array) {
 						return
 					}
 				})
-		  
+
 		  } else {
 		  	console.log("No reply needed\n\n\n\n")
 		  }
@@ -134,7 +134,7 @@ function processTweets(array) {
 	  .catch((err) => {
 		  console.log('error with ' + item.user.screen_name + ': ',err)
 		  console.log("\n\n\n\n")
-			
+
 		})
   }
 }
@@ -151,8 +151,3 @@ function isThisNew(tweet){
 // searchTweets()
 
 // setInterval(searchTweets, 60000)
-
-
-
-
-
