@@ -8,22 +8,9 @@ const router = express.Router();
 //twitterSearch set up
 require('dotenv').config()
 
-
-
-// const tkey = process.env.tkey
-// const tsecret = process.env.tsecret
-// const atoken = process.env.atoken
-// const asecret = process.env.asecret
-
 const db = require('../../models')
-// const Twit = require('twit')
 
-const createTweet = require('../../createTweet');
-
-// const query = "#neverforget list:cspan/members-of-congress -filter:retweets AND -filter:replies '911' OR 'september' OR '9%2F11'"
-
-
-//createtweet stuff
+//createtweet stuff 
 
 let testObj = {
   "_id" : "5d3651584021fc2b0e16afc6",
@@ -116,44 +103,32 @@ function createRes (dataObj){
 }
 
 
-
-
-
-
 // // GET /content
 router.get('/:handle', (req, res) => {
 	console.log("got request for:", req.params.handle)
 	// DO STUFF!
+  // query the db
+	db.Reps.findOne({ twitter: "@" + req.params.handle }, function(err,obj) {
+		if (obj){
+			// success, do nothing
 
-  //-------------
-
-    // query the db
-		db.Reps.findOne({ twitter: "@" + req.params.handle }, function(err,obj) {
-			if (obj){
-				// success, do nothing
-
-			} else {
-				// didn't find a match?
-				console.log('error with:',err)
-				return
-			}
-		})
-		.then((results)=>{
-			
-			// console.log(results)
-			res.send(createRes(results))
-		})
-	  .catch((err) => {
-		  console.log('error with:',err)
-		  console.log("\n\n\n\n")
-		  res.send("Not found")
-			
-		})
-
-
-  //-------------
-
-
+		} else {
+			// didn't find a match?
+			console.log('error with:',err)
+			return
+		}
+	})
+	.then((results)=>{
+		
+		// console.log(results)
+		res.send(createRes(results))
+	})
+  .catch((err) => {
+	  console.log('error with:',err)
+	  console.log("\n\n\n\n")
+	  res.send("Not found")
+		
+	})
 })
 
 module.exports = router

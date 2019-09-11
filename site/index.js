@@ -30,7 +30,7 @@ function fromRequest(req){
 // Remember to pass the JWT_SECRET to ExpressJWT (it will break without it!)
 // NOTE on ExpressJWT: The unless portion is only needed if you need exceptions
 
-// Include routes from controllers
+// Include routes from controllers 
 
 app.use('/search', require('./controllers/search'));
 
