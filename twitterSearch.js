@@ -95,7 +95,7 @@ function processTweets(array) {
 		  	// ---------------------------------------|
 		  	// un-comment the next line when ready ---|
 
-	  		// createTweet.tweet(item.id_str,results)
+	  		createTweet.tweet(item.id_str,results)
 
 	  		// let's add this tweet ID to the database too
 	  		// conditions, update, options, callback
