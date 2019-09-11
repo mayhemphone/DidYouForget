@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>#DidTheyForget</title>
   </head>
   <body>
     <div class="search">
-      <form action="index" method="get">
+      <form action="/search" method="get">
         <input type="text" name="handle" placeholder="@congressperson">
         <input type="submit" name="submit" value="Search">
       </form>
@@ -18,16 +18,12 @@
             <p>No results to show.</p>
           <% } %>
           <% results.forEach(result => { %>
-            <div>
-              <div class="prevTweetText">
-                <%= result %>
-              </div>
+            <div class="prevTweetText">
+              <%= result %>
             </div>
           <% }) %>
         <% } else { %>
-          <p>
-            <%= results %>
-          </p>
+          <p><%= results %></p>
         <% } %>
       <% } %>
     </div>

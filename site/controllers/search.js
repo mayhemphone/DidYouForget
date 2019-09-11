@@ -142,6 +142,7 @@ router.get('/:handle', (req, res) => {
 
 			// console.log(results)
 			res.send(createRes(results))
+      // res.render('index')
 		})
 	  .catch((err) => {
 		  console.log('error with:',err)
