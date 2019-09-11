@@ -106,6 +106,10 @@ module.exports ={
 	  let full = at + intro + meat + outro
 	  let almostFull = intro + meat + outro
 
+<<<<<<< HEAD
+function createTweet(dataObj) {
+  let intro = `${dataObj['twitter']}\n${dataObj['chamber'] === 'Senate' ? 'Sen. ' : 'Rep. '}${dataObj['name']} (${dataObj['party']}) ${dataObj['state']}${dataObj['district'] ? '-' + dataObj['district'] : ''} support record for 9/11 first responder bills:`
+=======
 	  // post tweet
 		// T.post('statuses/update', { 
 		// 	in_reply_to_status_id: id, 
@@ -113,6 +117,7 @@ module.exports ={
 		// }, function(err, data, response) {
 		//   console.log(data)
 		//   //retweet this?
+>>>>>>> 312ebdde7827ddaa670d22fe691a881b80ef1b5b
 
 		// })
 		// CONSOLE LOG TWEET
@@ -122,6 +127,14 @@ module.exports ={
 		// techincally we are posting a new tweet, and linking to their tweet
 		// because there is no retweet with comment in the twitter api
 
+<<<<<<< HEAD
+  let full = intro + meat + outro
+  console.log(full)
+  if (full.length > 260) {
+    console.log(full.length)
+  }
+  console.log()
+=======
 		// T.post('statuses/update', { 
 		// 	attachment_url: 'https://twitter.com/'+dataObj['twitter'].substr(1)+'/status/' + id, 
 		// 	status: almostFull,
@@ -130,4 +143,13 @@ module.exports ={
 		//   console.log(data)
 		// })
 	}
+>>>>>>> 312ebdde7827ddaa670d22fe691a881b80ef1b5b
 }
+
+db.Reps.find({})
+.then(reps => {
+  reps.forEach((rep, i) => {
+    createTweet(rep)
+    console.log(i);
+  })
+})

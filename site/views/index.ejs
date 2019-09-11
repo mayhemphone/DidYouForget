@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="search">
+      <form action="index" method="get">
+        <input type="text" name="handle" placeholder="@congressperson">
+        <input type="submit" name="submit" value="Search">
+      </form>
+    </div>
+    <div class="results">
+      <% if (results) { %>
+        <% if (results.length < 1) { %>
+          <p>No results to show.</p>
+        <% } %>
+        <% results.forEach(result => { %>
+          <div>
+            <div class="prevTweetText">
+              <%= result %>
+            </div>
+          </div>
+        <% }) %>
+      <% } %>
+    </div>
+  </body>
+</html>

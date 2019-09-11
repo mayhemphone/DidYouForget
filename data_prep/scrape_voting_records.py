@@ -15,7 +15,7 @@ API_CALLS = {
     'v_2010_s_1': 'https://api.propublica.org/congress/v1/111/senate/sessions/2/votes/269',
     'v_2015_b_1': None,
     'v_2019_h_1': 'https://api.propublica.org/congress/v1/116/house/sessions/1/votes/474',
-    'v_2019_s_1': None
+    'v_2019_s_1': 'https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/224'
 }
 CALLS_TO_USE = ['v_2010_h_1', 'v_2010_h_2', 'v_2010_h_3', 'v_2010_s_1', 'v_2019_h_1']
 
@@ -255,6 +255,8 @@ for person in resp_data['results']['votes']['vote']['positions']:
         # (name, chamber, party, state, district, v_2010_h_1, v_2010_h_2, v_2010_h_3, v_2010_s_1, v_2015_b_1, v_2019_h_1, v_2019_s_1)
         print('//////////////////// NEW RECORD ////////////////////')
         Congressperson(rec_name_full, chamber, rec_party, rec_state, rec_district, None, None, None, None, None, v_2019_h_1, None)
+        print('new input for v_2019_h_1')
+        print(v_2019_h_1)
 
 json_writeable = []
 
@@ -281,5 +283,5 @@ for cman in Congressperson._registry:
     print(cman.voting_history)
 
 
-with open('voting_data.json', 'w') as fp:
-    json.dump(json_writeable, fp)
+# with open('voting_data.json', 'w') as fp:
+#     json.dump(json_writeable, fp)
