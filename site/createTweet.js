@@ -107,16 +107,14 @@ module.exports ={
 	  let almostFull = intro + meat + outro
 
 	  // post tweet
-		// T.post('statuses/update', { 
-		// 	in_reply_to_status_id: id, 
-		// 	status: full,
-		// }, function(err, data, response) {
-		//   console.log(data)
-		//   //retweet this?
+		T.post('statuses/update', { 
+			in_reply_to_status_id: id, 
+			status: full,
+		}, function(err, data, response) {
+		  console.log(data)
+		  //retweet this?
 
-		// })
-		// CONSOLE LOG TWEET
-		console.log("\n\n\n\n\n\nTWEET:\n-----------------------------------------------\n"+full+"\n\n\n\n")
+		})
 
 		// retweet their tweet with the voting record added
 		// techincally we are posting a new tweet, and linking to their tweet
