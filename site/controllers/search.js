@@ -146,6 +146,7 @@ router.get('/:handle', (req, res) => {
 	  .catch((err) => {
 		  console.log('error with:',err)
 		  console.log("\n\n\n\n")
+		  res.send("Not found")
 			
 		})
 
