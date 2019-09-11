@@ -1,4 +1,10 @@
+
+
+
 require('dotenv').config()
+
+
+
 const tkey = process.env.tkey
 const tsecret = process.env.tsecret
 const atoken = process.env.atoken
@@ -73,8 +79,8 @@ function processTweets(array) {
 	  	console.log(item.id_str)
 	    console.log("@"+item.user.screen_name)
 	    console.log(item.full_text)
-	  	// console.log("\nVoting Record:")
-	  	// console.log(results)
+	  	console.log("\nVoting Record:")
+	  	console.log(results)
 	  	console.log("\nIs this a new tweet?")
 	  	
 
@@ -82,15 +88,15 @@ function processTweets(array) {
 
 			tweetResults.prevTweets.forEach(function(element) {
 			  
-			  // console.log("Checking current tweet against prevTweets: ",element);
+			  console.log("Checking current tweet against prevTweets: ",element);
 
 			  if (element === item.id_str) {
-			  	// console.log("Been there, done that")
+			  	console.log("Been there, done that")
 			  	oldTweet = true
 			  	return
 
 			  } else{
-			  	// console.log("not a match")
+			  	console.log("not a match")
 			  }
 			})
 	  })
@@ -142,7 +148,11 @@ function isThisNew(tweet){
 
 // TODO: set timer to check for new tweets
 
-searchTweets()
+// searchTweets()
 
-setInterval(searchTweets, 60000)
+// setInterval(searchTweets, 60000)
+
+
+
+
 

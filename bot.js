@@ -77,7 +77,7 @@ function replyToTweet(id, screen_name, voting_record){
 
 	T.post('statuses/update', { 
 		in_reply_to_status_id: id, 
-		status: screen_name,
+		status: reply,
 		
 	}, function(err, data, response) {
 	  console.log(data)
