@@ -81,12 +81,12 @@ let chooseEmoji = {
 }
 
 let votesIter = [
-	'v_2010_h_1', 
-	'v_2010_h_2', 
-	'v_2010_h_3', 
-	'v_2010_s_1', 
-	'v_2015_b_1', 
-	'v_2019_h_1', 
+	'v_2010_h_1',
+	'v_2010_h_2',
+	'v_2010_h_3',
+	'v_2010_s_1',
+	'v_2015_b_1',
+	'v_2019_h_1',
 	'v_2019_s_1'
 ]
 
@@ -139,15 +139,16 @@ router.get('/:handle', (req, res) => {
 			}
 		})
 		.then((results)=>{
-			
+
 			// console.log(results)
 			res.send(createRes(results))
+      // res.render('index', {results: results})
 		})
 	  .catch((err) => {
 		  console.log('error with:',err)
 		  console.log("\n\n\n\n")
 		  res.send("Not found")
-			
+
 		})
 
 
