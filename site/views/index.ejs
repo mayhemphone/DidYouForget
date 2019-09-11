@@ -13,16 +13,22 @@
     </div>
     <div class="results">
       <% if (results) { %>
-        <% if (results.length < 1) { %>
-          <p>No results to show.</p>
-        <% } %>
-        <% results.forEach(result => { %>
-          <div>
-            <div class="prevTweetText">
-              <%= result %>
+        <% if (Array.isArray(results)) { %>
+          <% if (results.length < 1) { %>
+            <p>No results to show.</p>
+          <% } %>
+          <% results.forEach(result => { %>
+            <div>
+              <div class="prevTweetText">
+                <%= result %>
+              </div>
             </div>
-          </div>
-        <% }) %>
+          <% }) %>
+        <% } else { %>
+          <p>
+            <%= results %>
+          </p>
+        <% } %>
       <% } %>
     </div>
   </body>
